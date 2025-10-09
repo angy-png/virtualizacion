@@ -6,7 +6,7 @@ var app;
             this._figuras = null;
             d3.select("body")
                 .append("button")
-                .text("Circulos")
+                .text("Suma")
                 .on("click", () => {
                 if (!this._circulos)
                     this._circulos = new circulos.Ccirculos();

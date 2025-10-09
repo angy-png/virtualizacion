@@ -5,7 +5,7 @@ namespace app {
         constructor() {
             d3.select("body")
                 .append("button")
-                .text("Circulos")
+                .text("Suma")
                 .on("click", () => {
                     if (!this._circulos) this._circulos = new circulos.Ccirculos();
                     this._circulos.mostrar();

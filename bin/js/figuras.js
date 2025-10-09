@@ -1,10 +1,9 @@
 var figuras;
 (function (figuras) {
-    //tipo numerico
     let tipoFigura;
     (function (tipoFigura) {
-        tipoFigura["circulo"] = "circulo";
-        tipoFigura["cuadrado"] = "cuadrado";
+        tipoFigura[tipoFigura["circulo"] = 1] = "circulo";
+        tipoFigura[tipoFigura["cuadrado"] = 2] = "cuadrado";
     })(tipoFigura || (tipoFigura = {}));
     class cFiguras {
         constructor() {
@@ -22,15 +21,24 @@ var figuras;
                 .attr("id", "selectFigura");
             this.selectTipo
                 .selectAll("option")
-                //Devuelve un arreglo ["circulo", "cuadrado"] 
-                .data(Object.values(tipoFigura))
+                // extraer los keys y filtrar las clases que no se pueden convertir a number
+                .data(Object.keys(tipoFigura).filter(k => isNaN(Number(k))))
                 .enter()
                 .append("option")
-                .attr("value", d => d)
+                // d es una clave del tipo de tipoFigura(enum)
+                .attr("value", d => tipoFigura[d]) // valor numérico (1 o 2)
                 .text(d => d);
-            this.contenedorInputs = this.contenedor
-                .append("div")
-                .attr("id", "contenedorInputs");
+            this.inputRadio = this.contenedor
+                .append("input")
+                .attr("type", "number")
+                .attr("min", "1")
+                .attr("placeholder", "Ingresa el radio");
+            this.inputLado = this.contenedor
+                .append("input")
+                .attr("type", "number")
+                .attr("min", "1")
+                .attr("placeholder", "Ingresa el lado");
+            // Campos generales (color de figura y boton de agregar)
             this.contenedor.append("label").text(" Color: ");
             this.inputColor = this.contenedor
                 .append("input")
@@ -42,12 +50,10 @@ var figuras;
                 .on("click", () => {
                 this.agregarFigura();
             });
-            // this.botonEliminar = this.contenedor
-            //     .append("button")
-            //     .text("eliminar figura")
-            //     .on("click", () => {
-            //         this.eliminarSeleccionado();
-            //     });
+            this.botonEliminar = this.contenedor
+                .append("button")
+                .text("Eliminar figura")
+                .on("click", () => this.eliminarSeleccionado());
             this.svg = this.contenedor.append("svg")
                 .attr("width", this.svgWidth)
                 .attr("height", this.svgHeight)
@@ -58,123 +64,142 @@ var figuras;
             this.mostrarInputs();
         }
         mostrarInputs() {
-            const tipo = this.selectTipo.property("value");
-            //mostar o ocultar 
-            this.contenedorInputs.html("");
+            const tipo = Number(this.selectTipo.property("value"));
             switch (tipo) {
                 case tipoFigura.circulo:
-                    this.contenedorInputs.append("label").text(" Radio: ");
-                    this.inputRadio = this.contenedorInputs
-                        .append("input")
-                        .attr("type", "number")
-                        .attr("id", "radio")
-                        .attr("min", "1")
-                        .attr("placeholder", "Radio");
+                    this.inputRadio.style("display", "block");
+                    this.inputLado.style("display", "none");
                     break;
                 case tipoFigura.cuadrado:
-                    this.contenedorInputs.append("label").text(" Lado: ");
-                    this.inputLado = this.contenedorInputs
-                        .append("input")
-                        .attr("type", "number")
-                        .attr("id", "lado")
-                        .attr("placeholder", "Lado");
+                    this.inputRadio.style("display", "none");
+                    this.inputLado.style("display", "block");
                     break;
             }
         }
         agregarFigura() {
-            const tipo = this.selectTipo.property("value");
+            const tipo = Number(this.selectTipo.property("value"));
             const color = this.inputColor.property("value");
             let medida;
+            const nuevaFigura = {
+                id: this.contador++,
+                figura: tipo,
+                x: 0,
+                y: 0,
+                medida: 0,
+                color: color
+            };
             switch (tipo) {
                 case tipoFigura.circulo:
                     medida = Number(this.inputRadio.property("value"));
-                    const nuevoCirculo = {
-                        id: this.contador++,
-                        cx: Math.random() * (this.svgWidth - 2 * medida) + medida,
-                        cy: Math.random() * (this.svgHeight - 2 * medida) + medida,
-                        r: medida,
-                        color: color
-                    };
-                    this.figuras.set(nuevoCirculo.id, nuevoCirculo);
-                    console.log(nuevoCirculo);
                     break;
                 case tipoFigura.cuadrado:
                     medida = Number(this.inputLado.property("value"));
-                    const nuevoCuadrado = {
-                        id: this.contador++,
-                        x: Math.random() * (this.svgWidth - medida),
-                        y: Math.random() * (this.svgHeight - medida),
-                        lado: medida,
-                        color: color
-                    };
-                    this.figuras.set(nuevoCuadrado.id, nuevoCuadrado);
-                    console.log(nuevoCuadrado);
                     break;
             }
+            nuevaFigura.medida = medida;
+            nuevaFigura.x = Math.random() * (this.svgWidth - 2 * medida) + medida;
+            nuevaFigura.y = Math.random() * (this.svgHeight - 2 * medida) + medida;
+            this.figuras.set(nuevaFigura.id, nuevaFigura);
+            console.log("Nueva figura", nuevaFigura);
             this.renderizar();
+        }
+        eliminarSeleccionado() {
+            // has verifica que el valor entre () existe en circulosMap
+            if (this.selectId !== null && this.figuras.has(this.selectId)) {
+                this.figuras.delete(this.selectId); //elimina directamente por id
+                this.selectId = null;
+                this.renderizar();
+            }
+            else {
+                alert("Selecciona un círculo primero :)");
+            }
         }
         renderizar() {
             const data = Array.from(this.figuras.values());
-            console.log(data);
-            // Vincular los datos a los <g> del SVG
+            const thisClase = this;
             const grupos = this.svg.selectAll("g.figura")
                 .data(data, d => d.id);
-            //figuras nuevas
-            const gruposEnter = grupos.enter()
+            grupos.enter()
                 .append("g")
                 .attr("class", "figura")
                 .each(function (d) {
-                const g = d3.select(this); //aquí entra d3.select(this)
+                const g = d3.select(this);
                 console.log("Esto es this (nuevo elemento):", this);
-                //usar switch en base al enum
-                if ("r" in d) {
-                    g.append("circle")
-                        .attr("cx", d.cx)
-                        .attr("cy", d.cy)
-                        .attr("r", 0)
-                        .attr("fill", d.color)
-                        .transition()
-                        .duration(800)
-                        .attr("r", d.r);
+                switch (d.figura) {
+                    case tipoFigura.circulo:
+                        g.append("circle")
+                            .attr("cx", d.x)
+                            .attr("cy", d.y)
+                            .attr("r", 0)
+                            .attr("fill", d.color)
+                            .transition()
+                            .duration(800)
+                            .attr("r", d.medida);
+                        break;
+                    case tipoFigura.cuadrado:
+                        g.append("rect")
+                            .attr("x", d.x)
+                            .attr("y", d.y)
+                            .attr("width", 0)
+                            .attr("height", 0)
+                            .attr("fill", d.color)
+                            .transition()
+                            .duration(800)
+                            .attr("width", d.medida)
+                            .attr("height", d.medida);
+                        break;
                 }
-                else {
-                    g.append("rect")
-                        .attr("x", d.x)
-                        .attr("y", d.y)
-                        .attr("width", 0)
-                        .attr("height", 0)
-                        .attr("fill", d.color)
-                        .transition()
-                        .duration(800)
-                        .attr("width", d.lado)
-                        .attr("height", d.lado);
-                }
+                //arrow fuction cuando se quiere usar this de la clase
+                g.on("click", () => {
+                    thisClase.selectId = d.id;
+                    console.log("Figura seleccionada, id:", thisClase.selectId);
+                });
+                g.call(d3.drag()
+                    .on("drag", function (event, d) {
+                    const medida = d.medida;
+                    d.x = Math.max(medida, Math.min(thisClase.svgWidth - medida, event.x));
+                    d.y = Math.max(medida, Math.min(thisClase.svgHeight - medida, event.y));
+                    switch (d.figura) {
+                        case tipoFigura.circulo:
+                            d3.select(this).select("circle")
+                                .attr("cx", d.x)
+                                .attr("cy", d.y);
+                            break;
+                        case tipoFigura.cuadrado:
+                            d3.select(this).select("rect")
+                                .attr("x", d.x)
+                                .attr("y", d.y);
+                            break;
+                    }
+                }));
             });
-            //figuras existentes
+            // Figuras existentes
             grupos.each(function (d) {
                 const g = d3.select(this);
                 console.log("Esto es this (actualizar elemento):", this);
-                if ("r" in d) {
-                    g.select("circle")
-                        .transition()
-                        .duration(800)
-                        .attr("cx", d.cx)
-                        .attr("cy", d.cy)
-                        .attr("r", d.r)
-                        .attr("fill", d.color);
-                }
-                else {
-                    g.select("rect")
-                        .transition()
-                        .duration(800)
-                        .attr("x", d.x)
-                        .attr("y", d.y)
-                        .attr("width", d.lado)
-                        .attr("height", d.lado)
-                        .attr("fill", d.color);
+                switch (d.figura) {
+                    case tipoFigura.circulo:
+                        g.select("circle")
+                            .transition()
+                            .duration(800)
+                            .attr("cx", d.x)
+                            .attr("cy", d.y)
+                            .attr("r", d.medida)
+                            .attr("fill", d.color);
+                        break;
+                    case tipoFigura.cuadrado:
+                        g.select("rect")
+                            .transition()
+                            .duration(800)
+                            .attr("x", d.x)
+                            .attr("y", d.y)
+                            .attr("width", d.medida)
+                            .attr("height", d.medida)
+                            .attr("fill", d.color);
+                        break;
                 }
             });
-            //figuras eliminadas
+            // Figuras eliminadas
             grupos.exit()
                 .each(function () {
                 const g = d3.select(this);
