@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "DOM",
+            "ES2022"
+        ],
+        "module": "commonjs",
+        "sourceMap":true,
+        "outDir": "bin/js",
+        "declaration": false,
+        "moduleResolution": "node",
+        "experimentalDecorators": false
+    }
+}
