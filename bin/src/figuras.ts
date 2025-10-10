@@ -1,10 +1,10 @@
 namespace figuras {
-
     enum tipoFigura {
         circulo = 1,
         cuadrado = 2,
+        pentagono = 3
     }
-// style nueva figura y drag
+
     interface iFiguras {
         id: number;
         figura: tipoFigura;
@@ -23,25 +23,45 @@ namespace figuras {
         private botonAgregar: d3.Selection<HTMLButtonElement, unknown, HTMLElement, any>;
         private botonEliminar: d3.Selection<HTMLButtonElement, unknown, HTMLElement, any>;
 
-        private inputRadio: d3.Selection<HTMLInputElement, unknown, HTMLElement, any>;
-        private inputLado: d3.Selection<HTMLInputElement, unknown, HTMLElement, any>;
+        private input: d3.Selection<HTMLInputElement, unknown, HTMLElement, any>;
+        private label1: d3.Selection<HTMLLabelElement, unknown, HTMLElement, any>;
+        private label2: d3.Selection<HTMLLabelElement, unknown, HTMLElement, any>
 
         private svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>
-  
+
         private svgWidth = 400;
         private svgHeight = 300;
         private contador: number = 1;
         private selectId: number | null = null;
-        
+
         constructor() {
             this.contenedor = d3.select("body")
                 .append("div")
-                .attr("id", "contenedorBase");
+                .attr("id", "contenedorBase")
+                .style("background-color", "#ffffffff") //color fondo
+                .style("text-align", "center") //centrar texto
+                .style("width", "600px") //ancho del elemento 
+                .style("padding", "30px 30px") //espacio entre elemento
+                .style("box-shadow", "5px 5px 15px gray"); //sombreado
 
-            this.contenedor.append("label").text("Tipo de figura: ")
+            this.contenedor
+                .append("H1")
+                .text("Figuras")
+                .style("color", "black")
+                .style("font-size", "30px") //tamaño de fuente
+                .style("font-family", "new times roman") //estilo de fuente
+
+            this.contenedor.append("label")
+                .text("Tipo de figura: "); 
+
+            this.contenedor.append("br")
+
             this.selectTipo = this.contenedor
                 .append("select")
-                .attr("id", "selectFigura");
+                .attr("id", "selectFigura")
+                .style("width", "150px") //ancho 
+                .style("height", "30px") //alto 
+                .style("text-align", "center")
 
             this.selectTipo
                 .selectAll("option")
@@ -53,28 +73,46 @@ namespace figuras {
                 .attr("value", d => tipoFigura[d as keyof typeof tipoFigura]) // valor numérico (1 o 2)
                 .text(d => d);
 
-            this.inputRadio = this.contenedor
+            this.label1 = this.contenedor
+                .append("label")
+                .text("Radio:")
+
+            this.label2 = this.contenedor
+                .append("label")
+                .text("Lado:")
+    
+            this.input = this.contenedor
                 .append("input")
                 .attr("type", "number")
                 .attr("min", "1")
-                .attr("placeholder", "Ingresa el radio");
+                .style("width", "150px")
+                .style("height", "30px")
+                .style("text-align", "center");
 
-            this.inputLado = this.contenedor
-                .append("input")
-                .attr("type", "number")
-                .attr("min", "1")
-                .attr("placeholder", "Ingresa el lado");
-
+            this.contenedor.append("br")
             // Campos generales (color de figura y boton de agregar)
-            this.contenedor.append("label").text(" Color: ");
+            this.contenedor.append("label").text("Color: ");
+
+            this.contenedor.append("br");
+
             this.inputColor = this.contenedor
                 .append("input")
                 .attr("type", "color")
-                .attr("id", "colorFigura");
+                .attr("id", "colorFigura")
+                .style("width", "150px")
+                .style("height", "30px")
+
+            this.contenedor.append("br")
 
             this.botonAgregar = this.contenedor
                 .append("button")
                 .text("Agregar figura")
+                .style("background", "#1c940dff")
+                .style("color", "#fff")
+                .style("border", "none")//borde nula
+                .style("padding", "8px 15px") //espacio entre elemento vertical / horizontal
+                .style("margin", "10px 10px") //borde entre 
+                .style("cursor", "pointer") 
                 .on("click", () => {
                     this.agregarFigura();
                 });
@@ -82,14 +120,19 @@ namespace figuras {
             this.botonEliminar = this.contenedor
                 .append("button")
                 .text("Eliminar figura")
+                .style("background", "#cc0000")
+                .style("color", "#fff")
+                .style("border", "none")
+                .style("padding", "8px 15px")
+                .style("margin", "10px 10px")
+                .style("cursor", "pointer")
                 .on("click", () => this.eliminarSeleccionado());
 
             this.svg = this.contenedor.append("svg")
                 .attr("width", this.svgWidth)
-                .attr("height", this.svgHeight)
-                .style("border", "1px solid black")
-                .style("display", "block");
-
+                .attr("height", this.svgHeight) 
+                .style("background-color", "#cfcfcfff")
+                
             //se activa cuando se cambia el valor de un elemento        
             this.selectTipo.on("change", () => this.mostrarInputs());
             this.mostrarInputs();
@@ -99,14 +142,18 @@ namespace figuras {
             const tipo = Number(this.selectTipo.property("value"));
             switch (tipo) {
                 case tipoFigura.circulo:
-                    this.inputRadio.style("display", "block")
-                    this.inputLado.style("display", "none")
+                    this.label1.style("display", "block")
+                    this.label2.style("display", "none")
                     break;
 
                 case tipoFigura.cuadrado:
-                    this.inputRadio.style("display", "none")
-                    this.inputLado.style("display", "block")
+                    this.label1.style("display", "none")
+                    this.label2.style("display", "block")
                     break;
+
+                case tipoFigura.pentagono:
+                    this.label1.style("display", "block")
+                    this.label2.style("display", "none")
             }
         }
 
@@ -124,15 +171,17 @@ namespace figuras {
                 color: color
             };
 
-            switch (tipo) {
-                case tipoFigura.circulo:
-                    medida = Number(this.inputRadio.property("value"));
-                    break;
+            // switch (tipo) {
+            //     case tipoFigura.circulo:
+            //         medida = Number(this.input.property("value"));
+            //         break;
 
-                case tipoFigura.cuadrado:
-                    medida = Number(this.inputLado.property("value"));
-                    break;
-            }
+            //     case tipoFigura.cuadrado:
+            //         medida = Number(this.input.property("value"));
+            //         break;
+            // }
+
+            medida = Number(this.input.property("value"));
             nuevaFigura.medida = medida;
             nuevaFigura.x = Math.random() * (this.svgWidth - 2 * medida) + medida;
             nuevaFigura.y = Math.random() * (this.svgHeight - 2 * medida) + medida;
@@ -153,6 +202,22 @@ namespace figuras {
             }
         }
 
+        public generarPoligono(px, py, radio, lados): string {
+            const puntos = [];
+            //angulos entre vertices en radianes 
+            const angulo = (2 * Math.PI) / lados;
+
+            for (let i = 0; i < lados; i++) {
+                const rad = i * angulo - Math.PI / 2; // -90° para que apunte hacia arriba
+                const x = px + radio * Math.cos(rad); //se obtiene los vertices 
+                const y = py + radio * Math.sin(rad);
+                puntos.push([x, y]);
+            }
+            // p es cada vertice que se use mediante ",", posteriormente se une en uno solo 
+            return puntos.map(p => p.join(",")).join(" ");
+        }
+
+
         private renderizar() {
             const data = Array.from(this.figuras.values());
             const thisClase = this;
@@ -165,7 +230,7 @@ namespace figuras {
                 .attr("class", "figura")
                 .each(function (d) {
                     const g = d3.select(this);
-                    console.log("Esto es this (nuevo elemento):", this); 
+                    console.log("Esto es this (nuevo elemento):", this);
 
                     switch (d.figura) {
                         case tipoFigura.circulo:
@@ -191,6 +256,15 @@ namespace figuras {
                                 .attr("width", d.medida)
                                 .attr("height", d.medida);
                             break;
+
+                        case tipoFigura.pentagono:
+                            g.append("polygon")
+                                .attr("points", thisClase.generarPoligono(d.x, d.y, 0, 5))
+                                .transition()
+                                .duration(800)
+                                .attr("points", thisClase.generarPoligono(d.x, d.y, d.medida, 5)) // x, y radio, lados
+                                .attr("fill", d.color);
+
                     }
                     //arrow fuction cuando se quiere usar this de la clase
                     g.on("click", () => {
@@ -217,6 +291,9 @@ namespace figuras {
                                             .attr("x", d.x)
                                             .attr("y", d.y);
                                         break;
+                                    case tipoFigura.pentagono:
+                                        d3.select(this).select("polygon")
+                                            .attr("points", thisClase.generarPoligono(d.x, d.y, medida, 5))
                                 }
                             })
                     );
@@ -247,6 +324,13 @@ namespace figuras {
                             .attr("height", d.medida)
                             .attr("fill", d.color);
                         break;
+
+                    case tipoFigura.pentagono:
+                        g.select("polygon")
+                            .transition()
+                            .duration(800)
+                            .attr("points", thisClase.generarPoligono(d.x, d.y, d.medida, 5))
+                            .attr("fill", d.color);
                 }
             });
 
@@ -256,7 +340,7 @@ namespace figuras {
                     const g = d3.select(this);
                     console.log("Esto es this (eliminar elemento):", this);
                     g.transition()
-                        .duration(800)
+                        .duration(1000)
                         .style("opacity", 0)
                         .remove();
                 });
@@ -268,6 +352,5 @@ namespace figuras {
         public ocultar() {
             this.contenedor.style("display", "none")
         }
-
     }
 }
