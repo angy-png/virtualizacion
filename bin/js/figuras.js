@@ -45,12 +45,10 @@ var figuras;
                 // d es una clave del tipo de tipoFigura(enum)
                 .attr("value", d => tipoFigura[d]) // valor numérico (1 o 2)
                 .text(d => d);
-            this.label1 = this.contenedor
-                .append("label")
-                .text("Radio:");
-            this.label2 = this.contenedor
-                .append("label")
-                .text("Lado:");
+            this.contenedor.append("br");
+            this.label = this.contenedor
+                .append("label");
+            this.contenedor.append("br");
             this.input = this.contenedor
                 .append("input")
                 .attr("type", "number")
@@ -103,16 +101,14 @@ var figuras;
             const tipo = Number(this.selectTipo.property("value"));
             switch (tipo) {
                 case tipoFigura.circulo:
-                    this.label1.style("display", "block");
-                    this.label2.style("display", "none");
+                    this.label.text("Radio: ");
                     break;
                 case tipoFigura.cuadrado:
-                    this.label1.style("display", "none");
-                    this.label2.style("display", "block");
+                    this.label.text("Lado: ");
                     break;
                 case tipoFigura.pentagono:
-                    this.label1.style("display", "block");
-                    this.label2.style("display", "none");
+                    this.label.text("Radio: ");
+                    break;
             }
         }
         agregarFigura() {
@@ -127,14 +123,6 @@ var figuras;
                 medida: 0,
                 color: color
             };
-            // switch (tipo) {
-            //     case tipoFigura.circulo:
-            //         medida = Number(this.input.property("value"));
-            //         break;
-            //     case tipoFigura.cuadrado:
-            //         medida = Number(this.input.property("value"));
-            //         break;
-            // }
             medida = Number(this.input.property("value"));
             nuevaFigura.medida = medida;
             nuevaFigura.x = Math.random() * (this.svgWidth - 2 * medida) + medida;
@@ -156,7 +144,7 @@ var figuras;
         }
         generarPoligono(px, py, radio, lados) {
             const puntos = [];
-            //angulos entre vertices en radianes 
+            //angulos entre vertices en radianes  //540° pentagono 
             const angulo = (2 * Math.PI) / lados;
             for (let i = 0; i < lados; i++) {
                 const rad = i * angulo - Math.PI / 2; // -90° para que apunte hacia arriba

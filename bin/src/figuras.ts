@@ -24,8 +24,7 @@ namespace figuras {
         private botonEliminar: d3.Selection<HTMLButtonElement, unknown, HTMLElement, any>;
 
         private input: d3.Selection<HTMLInputElement, unknown, HTMLElement, any>;
-        private label1: d3.Selection<HTMLLabelElement, unknown, HTMLElement, any>;
-        private label2: d3.Selection<HTMLLabelElement, unknown, HTMLElement, any>
+        private label: d3.Selection<HTMLLabelElement, unknown, HTMLElement, any>;
 
         private svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>
 
@@ -52,7 +51,7 @@ namespace figuras {
                 .style("font-family", "new times roman") //estilo de fuente
 
             this.contenedor.append("label")
-                .text("Tipo de figura: "); 
+                .text("Tipo de figura: ");
 
             this.contenedor.append("br")
 
@@ -72,15 +71,12 @@ namespace figuras {
                 // d es una clave del tipo de tipoFigura(enum)
                 .attr("value", d => tipoFigura[d as keyof typeof tipoFigura]) // valor numérico (1 o 2)
                 .text(d => d);
-
-            this.label1 = this.contenedor
+            this.contenedor.append("br");
+            this.label = this.contenedor
                 .append("label")
-                .text("Radio:")
+            this.contenedor.append("br");
 
-            this.label2 = this.contenedor
-                .append("label")
-                .text("Lado:")
-    
+
             this.input = this.contenedor
                 .append("input")
                 .attr("type", "number")
@@ -112,7 +108,7 @@ namespace figuras {
                 .style("border", "none")//borde nula
                 .style("padding", "8px 15px") //espacio entre elemento vertical / horizontal
                 .style("margin", "10px 10px") //borde entre 
-                .style("cursor", "pointer") 
+                .style("cursor", "pointer")
                 .on("click", () => {
                     this.agregarFigura();
                 });
@@ -130,9 +126,9 @@ namespace figuras {
 
             this.svg = this.contenedor.append("svg")
                 .attr("width", this.svgWidth)
-                .attr("height", this.svgHeight) 
+                .attr("height", this.svgHeight)
                 .style("background-color", "#cfcfcfff")
-                
+
             //se activa cuando se cambia el valor de un elemento        
             this.selectTipo.on("change", () => this.mostrarInputs());
             this.mostrarInputs();
@@ -142,18 +138,17 @@ namespace figuras {
             const tipo = Number(this.selectTipo.property("value"));
             switch (tipo) {
                 case tipoFigura.circulo:
-                    this.label1.style("display", "block")
-                    this.label2.style("display", "none")
+                    this.label.text("Radio: ")
                     break;
 
                 case tipoFigura.cuadrado:
-                    this.label1.style("display", "none")
-                    this.label2.style("display", "block")
+                    this.label.text("Lado: ")
                     break;
 
                 case tipoFigura.pentagono:
-                    this.label1.style("display", "block")
-                    this.label2.style("display", "none")
+                    this.label.text("Radio: ")
+                    break
+
             }
         }
 
@@ -170,16 +165,6 @@ namespace figuras {
                 medida: 0,
                 color: color
             };
-
-            // switch (tipo) {
-            //     case tipoFigura.circulo:
-            //         medida = Number(this.input.property("value"));
-            //         break;
-
-            //     case tipoFigura.cuadrado:
-            //         medida = Number(this.input.property("value"));
-            //         break;
-            // }
 
             medida = Number(this.input.property("value"));
             nuevaFigura.medida = medida;
@@ -204,7 +189,7 @@ namespace figuras {
 
         public generarPoligono(px, py, radio, lados): string {
             const puntos = [];
-            //angulos entre vertices en radianes 
+            //angulos entre vertices en radianes  //540° pentagono 
             const angulo = (2 * Math.PI) / lados;
 
             for (let i = 0; i < lados; i++) {
