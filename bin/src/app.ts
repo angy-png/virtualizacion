@@ -2,6 +2,7 @@ namespace app {
     export class main {
         _circulos: circulos.Ccirculos | null = null;
         _figuras: figuras.cFiguras | null = null;
+        _virtualizacion: virtualizacion.cVirtualizacion | null = null;
         constructor() {
             d3.select("body")
                 .append("button")
@@ -11,6 +12,7 @@ namespace app {
                     this._circulos.mostrar();
 
                     if (this._figuras) this._figuras.ocultar();
+                    // if (this._virtualizacion) this._virtualizacion.ocultar();
                 });
 
 
@@ -22,9 +24,23 @@ namespace app {
                     this._figuras.mostrar();
 
                     if (this._circulos) this._circulos.ocultar();
+                    // if (this._virtualizacion) this._virtualizacion.ocultar();
                 });
-             d3.select("body")
-             .append("p").text("-----------------------------------")
+
+            d3.select("body")
+                .append("button")
+                .text("Virtualizacion")
+                .on("click", () => {
+                    if (!this._virtualizacion) this._virtualizacion = new virtualizacion.cVirtualizacion();
+                    // this._virtualizacion.mostrar(); 
+                 
+                    if (this._circulos) this._circulos.ocultar();
+                    if (this._figuras) this._figuras.ocultar();
+
+                })
+  
+            d3.select("body")
+                .append("p").text("-----------------------------------")
         }
     }
     let mainApp = new app.main();

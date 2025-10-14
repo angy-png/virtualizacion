@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "nombre": "Usuario 1",
+    "email": "usuario1@example.com",
+    "edad": 65,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-08-27"
+  },
+  {
+    "id": 2,
+    "nombre": "Usuario 2",
+    "email": "usuario2@example.com",
+    "edad": 31,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-12"
+  },
+  {
+    "id": 3,
+    "nombre": "Usuario 3",
+    "email": "usuario3@example.com",
+    "edad": 29,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-07-09"
+  },
+  {
+    "id": 4,
+    "nombre": "Usuario 4",
+    "email": "usuario4@example.com",
+    "edad": 19,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-02-04"
+  },
+  {
+    "id": 5,
+    "nombre": "Usuario 5",
+    "email": "usuario5@example.com",
+    "edad": 33,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-08-07"
+  },
+  {
+    "id": 6,
+    "nombre": "Usuario 6",
+    "email": "usuario6@example.com",
+    "edad": 50,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-05-15"
+  },
+  {
+    "id": 7,
+    "nombre": "Usuario 7",
+    "email": "usuario7@example.com",
+    "edad": 34,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-05-25"
+  },
+  {
+    "id": 8,
+    "nombre": "Usuario 8",
+    "email": "usuario8@example.com",
+    "edad": 36,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-12-22"
+  },
+  {
+    "id": 9,
+    "nombre": "Usuario 9",
+    "email": "usuario9@example.com",
+    "edad": 35,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-25"
+  },
+  {
+    "id": 10,
+    "nombre": "Usuario 10",
+    "email": "usuario10@example.com",
+    "edad": 55,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-01-20"
+  },
+  {
+    "id": 11,
+    "nombre": "Usuario 11",
+    "email": "usuario11@example.com",
+    "edad": 31,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-06-22"
+  },
+  {
+    "id": 12,
+    "nombre": "Usuario 12",
+    "email": "usuario12@example.com",
+    "edad": 62,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-01-09"
+  },
+  {
+    "id": 13,
+    "nombre": "Usuario 13",
+    "email": "usuario13@example.com",
+    "edad": 29,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-12-05"
+  },
+  {
+    "id": 14,
+    "nombre": "Usuario 14",
+    "email": "usuario14@example.com",
+    "edad": 21,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-02-21"
+  },
+  {
+    "id": 15,
+    "nombre": "Usuario 15",
+    "email": "usuario15@example.com",
+    "edad": 56,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-06-09"
+  },
+  {
+    "id": 16,
+    "nombre": "Usuario 16",
+    "email": "usuario16@example.com",
+    "edad": 45,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-01-08"
+  },
+  {
+    "id": 17,
+    "nombre": "Usuario 17",
+    "email": "usuario17@example.com",
+    "edad": 43,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-07-21"
+  },
+  {
+    "id": 18,
+    "nombre": "Usuario 18",
+    "email": "usuario18@example.com",
+    "edad": 40,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-07-06"
+  },
+  {
+    "id": 19,
+    "nombre": "Usuario 19",
+    "email": "usuario19@example.com",
+    "edad": 20,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-03-12"
+  },
+  {
+    "id": 20,
+    "nombre": "Usuario 20",
+    "email": "usuario20@example.com",
+    "edad": 29,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-10-24"
+  },
+  {
+    "id": 21,
+    "nombre": "Usuario 21",
+    "email": "usuario21@example.com",
+    "edad": 54,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-07-01"
+  },
+  {
+    "id": 22,
+    "nombre": "Usuario 22",
+    "email": "usuario22@example.com",
+    "edad": 44,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-06-10"
+  },
+  {
+    "id": 23,
+    "nombre": "Usuario 23",
+    "email": "usuario23@example.com",
+    "edad": 23,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-03-03"
+  },
+  {
+    "id": 24,
+    "nombre": "Usuario 24",
+    "email": "usuario24@example.com",
+    "edad": 44,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-01-01"
+  },
+  {
+    "id": 25,
+    "nombre": "Usuario 25",
+    "email": "usuario25@example.com",
+    "edad": 65,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-01-06"
+  },
+  {
+    "id": 26,
+    "nombre": "Usuario 26",
+    "email": "usuario26@example.com",
+    "edad": 53,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-09-27"
+  },
+  {
+    "id": 27,
+    "nombre": "Usuario 27",
+    "email": "usuario27@example.com",
+    "edad": 35,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-09-25"
+  },
+  {
+    "id": 28,
+    "nombre": "Usuario 28",
+    "email": "usuario28@example.com",
+    "edad": 24,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-02-13"
+  },
+  {
+    "id": 29,
+    "nombre": "Usuario 29",
+    "email": "usuario29@example.com",
+    "edad": 29,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-11"
+  },
+  {
+    "id": 30,
+    "nombre": "Usuario 30",
+    "email": "usuario30@example.com",
+    "edad": 28,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-04-26"
+  },
+  {
+    "id": 31,
+    "nombre": "Usuario 31",
+    "email": "usuario31@example.com",
+    "edad": 63,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-06-02"
+  },
+  {
+    "id": 32,
+    "nombre": "Usuario 32",
+    "email": "usuario32@example.com",
+    "edad": 25,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-06-24"
+  },
+  {
+    "id": 33,
+    "nombre": "Usuario 33",
+    "email": "usuario33@example.com",
+    "edad": 20,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-11-27"
+  },
+  {
+    "id": 34,
+    "nombre": "Usuario 34",
+    "email": "usuario34@example.com",
+    "edad": 65,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-02-02"
+  },
+  {
+    "id": 35,
+    "nombre": "Usuario 35",
+    "email": "usuario35@example.com",
+    "edad": 49,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-08-28"
+  },
+  {
+    "id": 36,
+    "nombre": "Usuario 36",
+    "email": "usuario36@example.com",
+    "edad": 30,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-10-03"
+  },
+  {
+    "id": 37,
+    "nombre": "Usuario 37",
+    "email": "usuario37@example.com",
+    "edad": 46,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-04-22"
+  },
+  {
+    "id": 38,
+    "nombre": "Usuario 38",
+    "email": "usuario38@example.com",
+    "edad": 22,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-03-04"
+  },
+  {
+    "id": 39,
+    "nombre": "Usuario 39",
+    "email": "usuario39@example.com",
+    "edad": 22,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-08-15"
+  },
+  {
+    "id": 40,
+    "nombre": "Usuario 40",
+    "email": "usuario40@example.com",
+    "edad": 43,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-08-10"
+  },
+  {
+    "id": 41,
+    "nombre": "Usuario 41",
+    "email": "usuario41@example.com",
+    "edad": 35,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-10-15"
+  },
+  {
+    "id": 42,
+    "nombre": "Usuario 42",
+    "email": "usuario42@example.com",
+    "edad": 27,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-04-21"
+  },
+  {
+    "id": 43,
+    "nombre": "Usuario 43",
+    "email": "usuario43@example.com",
+    "edad": 61,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-08-27"
+  },
+  {
+    "id": 44,
+    "nombre": "Usuario 44",
+    "email": "usuario44@example.com",
+    "edad": 63,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-06-28"
+  },
+  {
+    "id": 45,
+    "nombre": "Usuario 45",
+    "email": "usuario45@example.com",
+    "edad": 35,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-04-09"
+  },
+  {
+    "id": 46,
+    "nombre": "Usuario 46",
+    "email": "usuario46@example.com",
+    "edad": 23,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-02-06"
+  },
+  {
+    "id": 47,
+    "nombre": "Usuario 47",
+    "email": "usuario47@example.com",
+    "edad": 56,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-01-15"
+  },
+  {
+    "id": 48,
+    "nombre": "Usuario 48",
+    "email": "usuario48@example.com",
+    "edad": 52,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-10-10"
+  },
+  {
+    "id": 49,
+    "nombre": "Usuario 49",
+    "email": "usuario49@example.com",
+    "edad": 47,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-08-18"
+  },
+  {
+    "id": 50,
+    "nombre": "Usuario 50",
+    "email": "usuario50@example.com",
+    "edad": 30,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-03"
+  },
+  {
+    "id": 51,
+    "nombre": "Usuario 51",
+    "email": "usuario51@example.com",
+    "edad": 55,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-03"
+  },
+  {
+    "id": 52,
+    "nombre": "Usuario 52",
+    "email": "usuario52@example.com",
+    "edad": 28,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-09-23"
+  },
+  {
+    "id": 53,
+    "nombre": "Usuario 53",
+    "email": "usuario53@example.com",
+    "edad": 31,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-05-27"
+  },
+  {
+    "id": 54,
+    "nombre": "Usuario 54",
+    "email": "usuario54@example.com",
+    "edad": 39,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-04"
+  },
+  {
+    "id": 55,
+    "nombre": "Usuario 55",
+    "email": "usuario55@example.com",
+    "edad": 35,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-09-22"
+  },
+  {
+    "id": 56,
+    "nombre": "Usuario 56",
+    "email": "usuario56@example.com",
+    "edad": 62,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-08-05"
+  },
+  {
+    "id": 57,
+    "nombre": "Usuario 57",
+    "email": "usuario57@example.com",
+    "edad": 27,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-07-14"
+  },
+  {
+    "id": 58,
+    "nombre": "Usuario 58",
+    "email": "usuario58@example.com",
+    "edad": 53,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-08-07"
+  },
+  {
+    "id": 59,
+    "nombre": "Usuario 59",
+    "email": "usuario59@example.com",
+    "edad": 50,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-07-06"
+  },
+  {
+    "id": 60,
+    "nombre": "Usuario 60",
+    "email": "usuario60@example.com",
+    "edad": 35,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-06-26"
+  },
+  {
+    "id": 61,
+    "nombre": "Usuario 61",
+    "email": "usuario61@example.com",
+    "edad": 48,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-19"
+  },
+  {
+    "id": 62,
+    "nombre": "Usuario 62",
+    "email": "usuario62@example.com",
+    "edad": 28,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-03-17"
+  },
+  {
+    "id": 63,
+    "nombre": "Usuario 63",
+    "email": "usuario63@example.com",
+    "edad": 35,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-10-12"
+  },
+  {
+    "id": 64,
+    "nombre": "Usuario 64",
+    "email": "usuario64@example.com",
+    "edad": 31,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-02-09"
+  },
+  {
+    "id": 65,
+    "nombre": "Usuario 65",
+    "email": "usuario65@example.com",
+    "edad": 32,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-09-11"
+  },
+  {
+    "id": 66,
+    "nombre": "Usuario 66",
+    "email": "usuario66@example.com",
+    "edad": 36,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-03-27"
+  },
+  {
+    "id": 67,
+    "nombre": "Usuario 67",
+    "email": "usuario67@example.com",
+    "edad": 27,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-06-17"
+  },
+  {
+    "id": 68,
+    "nombre": "Usuario 68",
+    "email": "usuario68@example.com",
+    "edad": 32,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-10-05"
+  },
+  {
+    "id": 69,
+    "nombre": "Usuario 69",
+    "email": "usuario69@example.com",
+    "edad": 20,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-12-13"
+  },
+  {
+    "id": 70,
+    "nombre": "Usuario 70",
+    "email": "usuario70@example.com",
+    "edad": 21,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-08-23"
+  },
+  {
+    "id": 71,
+    "nombre": "Usuario 71",
+    "email": "usuario71@example.com",
+    "edad": 40,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-03-06"
+  },
+  {
+    "id": 72,
+    "nombre": "Usuario 72",
+    "email": "usuario72@example.com",
+    "edad": 63,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-04-06"
+  },
+  {
+    "id": 73,
+    "nombre": "Usuario 73",
+    "email": "usuario73@example.com",
+    "edad": 31,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-03-18"
+  },
+  {
+    "id": 74,
+    "nombre": "Usuario 74",
+    "email": "usuario74@example.com",
+    "edad": 60,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-05-13"
+  },
+  {
+    "id": 75,
+    "nombre": "Usuario 75",
+    "email": "usuario75@example.com",
+    "edad": 61,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-03-21"
+  },
+  {
+    "id": 76,
+    "nombre": "Usuario 76",
+    "email": "usuario76@example.com",
+    "edad": 61,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-12-21"
+  },
+  {
+    "id": 77,
+    "nombre": "Usuario 77",
+    "email": "usuario77@example.com",
+    "edad": 53,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-04-22"
+  },
+  {
+    "id": 78,
+    "nombre": "Usuario 78",
+    "email": "usuario78@example.com",
+    "edad": 28,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-07-10"
+  },
+  {
+    "id": 79,
+    "nombre": "Usuario 79",
+    "email": "usuario79@example.com",
+    "edad": 63,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-12-02"
+  },
+  {
+    "id": 80,
+    "nombre": "Usuario 80",
+    "email": "usuario80@example.com",
+    "edad": 21,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-12-11"
+  },
+  {
+    "id": 81,
+    "nombre": "Usuario 81",
+    "email": "usuario81@example.com",
+    "edad": 24,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-07-11"
+  },
+  {
+    "id": 82,
+    "nombre": "Usuario 82",
+    "email": "usuario82@example.com",
+    "edad": 31,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-09-24"
+  },
+  {
+    "id": 83,
+    "nombre": "Usuario 83",
+    "email": "usuario83@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-07-25"
+  },
+  {
+    "id": 84,
+    "nombre": "Usuario 84",
+    "email": "usuario84@example.com",
+    "edad": 54,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-11-23"
+  },
+  {
+    "id": 85,
+    "nombre": "Usuario 85",
+    "email": "usuario85@example.com",
+    "edad": 63,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-12-16"
+  },
+  {
+    "id": 86,
+    "nombre": "Usuario 86",
+    "email": "usuario86@example.com",
+    "edad": 56,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-07-14"
+  },
+  {
+    "id": 87,
+    "nombre": "Usuario 87",
+    "email": "usuario87@example.com",
+    "edad": 21,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-03-24"
+  },
+  {
+    "id": 88,
+    "nombre": "Usuario 88",
+    "email": "usuario88@example.com",
+    "edad": 33,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-07-06"
+  },
+  {
+    "id": 89,
+    "nombre": "Usuario 89",
+    "email": "usuario89@example.com",
+    "edad": 40,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-07-19"
+  },
+  {
+    "id": 90,
+    "nombre": "Usuario 90",
+    "email": "usuario90@example.com",
+    "edad": 65,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-08-04"
+  },
+  {
+    "id": 91,
+    "nombre": "Usuario 91",
+    "email": "usuario91@example.com",
+    "edad": 38,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-11-27"
+  },
+  {
+    "id": 92,
+    "nombre": "Usuario 92",
+    "email": "usuario92@example.com",
+    "edad": 29,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-02-19"
+  },
+  {
+    "id": 93,
+    "nombre": "Usuario 93",
+    "email": "usuario93@example.com",
+    "edad": 65,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-07-16"
+  },
+  {
+    "id": 94,
+    "nombre": "Usuario 94",
+    "email": "usuario94@example.com",
+    "edad": 60,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-06-06"
+  },
+  {
+    "id": 95,
+    "nombre": "Usuario 95",
+    "email": "usuario95@example.com",
+    "edad": 21,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-07"
+  },
+  {
+    "id": 96,
+    "nombre": "Usuario 96",
+    "email": "usuario96@example.com",
+    "edad": 44,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-02-04"
+  },
+  {
+    "id": 97,
+    "nombre": "Usuario 97",
+    "email": "usuario97@example.com",
+    "edad": 58,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-12-04"
+  },
+  {
+    "id": 98,
+    "nombre": "Usuario 98",
+    "email": "usuario98@example.com",
+    "edad": 28,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-09-07"
+  },
+  {
+    "id": 99,
+    "nombre": "Usuario 99",
+    "email": "usuario99@example.com",
+    "edad": 40,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-03-25"
+  },
+  {
+    "id": 100,
+    "nombre": "Usuario 100",
+    "email": "usuario100@example.com",
+    "edad": 54,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-02-14"
+  },
+  {
+    "id": 101,
+    "nombre": "Usuario 101",
+    "email": "usuario101@example.com",
+    "edad": 47,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-02"
+  },
+  {
+    "id": 102,
+    "nombre": "Usuario 102",
+    "email": "usuario102@example.com",
+    "edad": 55,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-05-11"
+  },
+  {
+    "id": 103,
+    "nombre": "Usuario 103",
+    "email": "usuario103@example.com",
+    "edad": 55,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-10-01"
+  },
+  {
+    "id": 104,
+    "nombre": "Usuario 104",
+    "email": "usuario104@example.com",
+    "edad": 26,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-04-07"
+  },
+  {
+    "id": 105,
+    "nombre": "Usuario 105",
+    "email": "usuario105@example.com",
+    "edad": 55,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-03-28"
+  },
+  {
+    "id": 106,
+    "nombre": "Usuario 106",
+    "email": "usuario106@example.com",
+    "edad": 22,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-06-16"
+  },
+  {
+    "id": 107,
+    "nombre": "Usuario 107",
+    "email": "usuario107@example.com",
+    "edad": 39,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-03-13"
+  },
+  {
+    "id": 108,
+    "nombre": "Usuario 108",
+    "email": "usuario108@example.com",
+    "edad": 31,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-01-10"
+  },
+  {
+    "id": 109,
+    "nombre": "Usuario 109",
+    "email": "usuario109@example.com",
+    "edad": 28,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-05-18"
+  },
+  {
+    "id": 110,
+    "nombre": "Usuario 110",
+    "email": "usuario110@example.com",
+    "edad": 42,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-03-27"
+  },
+  {
+    "id": 111,
+    "nombre": "Usuario 111",
+    "email": "usuario111@example.com",
+    "edad": 58,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-12-09"
+  },
+  {
+    "id": 112,
+    "nombre": "Usuario 112",
+    "email": "usuario112@example.com",
+    "edad": 30,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-01-06"
+  },
+  {
+    "id": 113,
+    "nombre": "Usuario 113",
+    "email": "usuario113@example.com",
+    "edad": 57,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-10-07"
+  },
+  {
+    "id": 114,
+    "nombre": "Usuario 114",
+    "email": "usuario114@example.com",
+    "edad": 23,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-10-09"
+  },
+  {
+    "id": 115,
+    "nombre": "Usuario 115",
+    "email": "usuario115@example.com",
+    "edad": 28,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-03-24"
+  },
+  {
+    "id": 116,
+    "nombre": "Usuario 116",
+    "email": "usuario116@example.com",
+    "edad": 20,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-07-18"
+  },
+  {
+    "id": 117,
+    "nombre": "Usuario 117",
+    "email": "usuario117@example.com",
+    "edad": 54,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-04-01"
+  },
+  {
+    "id": 118,
+    "nombre": "Usuario 118",
+    "email": "usuario118@example.com",
+    "edad": 60,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-02-22"
+  },
+  {
+    "id": 119,
+    "nombre": "Usuario 119",
+    "email": "usuario119@example.com",
+    "edad": 50,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-03-16"
+  },
+  {
+    "id": 120,
+    "nombre": "Usuario 120",
+    "email": "usuario120@example.com",
+    "edad": 20,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-09-06"
+  },
+  {
+    "id": 121,
+    "nombre": "Usuario 121",
+    "email": "usuario121@example.com",
+    "edad": 33,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-01-25"
+  },
+  {
+    "id": 122,
+    "nombre": "Usuario 122",
+    "email": "usuario122@example.com",
+    "edad": 49,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-06-15"
+  },
+  {
+    "id": 123,
+    "nombre": "Usuario 123",
+    "email": "usuario123@example.com",
+    "edad": 53,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-05-20"
+  },
+  {
+    "id": 124,
+    "nombre": "Usuario 124",
+    "email": "usuario124@example.com",
+    "edad": 43,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-05-21"
+  },
+  {
+    "id": 125,
+    "nombre": "Usuario 125",
+    "email": "usuario125@example.com",
+    "edad": 23,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-08-22"
+  },
+  {
+    "id": 126,
+    "nombre": "Usuario 126",
+    "email": "usuario126@example.com",
+    "edad": 25,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-06-18"
+  },
+  {
+    "id": 127,
+    "nombre": "Usuario 127",
+    "email": "usuario127@example.com",
+    "edad": 61,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-12-03"
+  },
+  {
+    "id": 128,
+    "nombre": "Usuario 128",
+    "email": "usuario128@example.com",
+    "edad": 30,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-04-23"
+  },
+  {
+    "id": 129,
+    "nombre": "Usuario 129",
+    "email": "usuario129@example.com",
+    "edad": 47,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-09-06"
+  },
+  {
+    "id": 130,
+    "nombre": "Usuario 130",
+    "email": "usuario130@example.com",
+    "edad": 41,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-06-26"
+  },
+  {
+    "id": 131,
+    "nombre": "Usuario 131",
+    "email": "usuario131@example.com",
+    "edad": 45,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": 132,
+    "nombre": "Usuario 132",
+    "email": "usuario132@example.com",
+    "edad": 52,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-12-26"
+  },
+  {
+    "id": 133,
+    "nombre": "Usuario 133",
+    "email": "usuario133@example.com",
+    "edad": 56,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-02-05"
+  },
+  {
+    "id": 134,
+    "nombre": "Usuario 134",
+    "email": "usuario134@example.com",
+    "edad": 54,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-01-11"
+  },
+  {
+    "id": 135,
+    "nombre": "Usuario 135",
+    "email": "usuario135@example.com",
+    "edad": 31,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-12-06"
+  },
+  {
+    "id": 136,
+    "nombre": "Usuario 136",
+    "email": "usuario136@example.com",
+    "edad": 36,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-01-19"
+  },
+  {
+    "id": 137,
+    "nombre": "Usuario 137",
+    "email": "usuario137@example.com",
+    "edad": 56,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-07-03"
+  },
+  {
+    "id": 138,
+    "nombre": "Usuario 138",
+    "email": "usuario138@example.com",
+    "edad": 35,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-03-06"
+  },
+  {
+    "id": 139,
+    "nombre": "Usuario 139",
+    "email": "usuario139@example.com",
+    "edad": 35,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-09-14"
+  },
+  {
+    "id": 140,
+    "nombre": "Usuario 140",
+    "email": "usuario140@example.com",
+    "edad": 46,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-11-26"
+  },
+  {
+    "id": 141,
+    "nombre": "Usuario 141",
+    "email": "usuario141@example.com",
+    "edad": 63,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-05"
+  },
+  {
+    "id": 142,
+    "nombre": "Usuario 142",
+    "email": "usuario142@example.com",
+    "edad": 36,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-10-15"
+  },
+  {
+    "id": 143,
+    "nombre": "Usuario 143",
+    "email": "usuario143@example.com",
+    "edad": 65,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-09-21"
+  },
+  {
+    "id": 144,
+    "nombre": "Usuario 144",
+    "email": "usuario144@example.com",
+    "edad": 22,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-02-07"
+  },
+  {
+    "id": 145,
+    "nombre": "Usuario 145",
+    "email": "usuario145@example.com",
+    "edad": 63,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-11-03"
+  },
+  {
+    "id": 146,
+    "nombre": "Usuario 146",
+    "email": "usuario146@example.com",
+    "edad": 43,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-01-19"
+  },
+  {
+    "id": 147,
+    "nombre": "Usuario 147",
+    "email": "usuario147@example.com",
+    "edad": 55,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-08-11"
+  },
+  {
+    "id": 148,
+    "nombre": "Usuario 148",
+    "email": "usuario148@example.com",
+    "edad": 60,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-03-02"
+  },
+  {
+    "id": 149,
+    "nombre": "Usuario 149",
+    "email": "usuario149@example.com",
+    "edad": 49,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-01-09"
+  },
+  {
+    "id": 150,
+    "nombre": "Usuario 150",
+    "email": "usuario150@example.com",
+    "edad": 57,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-04-20"
+  },
+  {
+    "id": 151,
+    "nombre": "Usuario 151",
+    "email": "usuario151@example.com",
+    "edad": 46,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-04-09"
+  },
+  {
+    "id": 152,
+    "nombre": "Usuario 152",
+    "email": "usuario152@example.com",
+    "edad": 54,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-12-25"
+  },
+  {
+    "id": 153,
+    "nombre": "Usuario 153",
+    "email": "usuario153@example.com",
+    "edad": 62,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-09-02"
+  },
+  {
+    "id": 154,
+    "nombre": "Usuario 154",
+    "email": "usuario154@example.com",
+    "edad": 30,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-06-05"
+  },
+  {
+    "id": 155,
+    "nombre": "Usuario 155",
+    "email": "usuario155@example.com",
+    "edad": 23,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-04-03"
+  },
+  {
+    "id": 156,
+    "nombre": "Usuario 156",
+    "email": "usuario156@example.com",
+    "edad": 58,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-05-18"
+  },
+  {
+    "id": 157,
+    "nombre": "Usuario 157",
+    "email": "usuario157@example.com",
+    "edad": 46,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-01-12"
+  },
+  {
+    "id": 158,
+    "nombre": "Usuario 158",
+    "email": "usuario158@example.com",
+    "edad": 34,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-01-19"
+  },
+  {
+    "id": 159,
+    "nombre": "Usuario 159",
+    "email": "usuario159@example.com",
+    "edad": 38,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-09-24"
+  },
+  {
+    "id": 160,
+    "nombre": "Usuario 160",
+    "email": "usuario160@example.com",
+    "edad": 55,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-12-23"
+  },
+  {
+    "id": 161,
+    "nombre": "Usuario 161",
+    "email": "usuario161@example.com",
+    "edad": 60,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-11-22"
+  },
+  {
+    "id": 162,
+    "nombre": "Usuario 162",
+    "email": "usuario162@example.com",
+    "edad": 48,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-08-10"
+  },
+  {
+    "id": 163,
+    "nombre": "Usuario 163",
+    "email": "usuario163@example.com",
+    "edad": 62,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-10-20"
+  },
+  {
+    "id": 164,
+    "nombre": "Usuario 164",
+    "email": "usuario164@example.com",
+    "edad": 36,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-02-14"
+  },
+  {
+    "id": 165,
+    "nombre": "Usuario 165",
+    "email": "usuario165@example.com",
+    "edad": 65,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-07-06"
+  },
+  {
+    "id": 166,
+    "nombre": "Usuario 166",
+    "email": "usuario166@example.com",
+    "edad": 34,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-06-14"
+  },
+  {
+    "id": 167,
+    "nombre": "Usuario 167",
+    "email": "usuario167@example.com",
+    "edad": 48,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-06-18"
+  },
+  {
+    "id": 168,
+    "nombre": "Usuario 168",
+    "email": "usuario168@example.com",
+    "edad": 20,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-08-28"
+  },
+  {
+    "id": 169,
+    "nombre": "Usuario 169",
+    "email": "usuario169@example.com",
+    "edad": 40,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-08"
+  },
+  {
+    "id": 170,
+    "nombre": "Usuario 170",
+    "email": "usuario170@example.com",
+    "edad": 32,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-03-27"
+  },
+  {
+    "id": 171,
+    "nombre": "Usuario 171",
+    "email": "usuario171@example.com",
+    "edad": 57,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-10-27"
+  },
+  {
+    "id": 172,
+    "nombre": "Usuario 172",
+    "email": "usuario172@example.com",
+    "edad": 18,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-06-04"
+  },
+  {
+    "id": 173,
+    "nombre": "Usuario 173",
+    "email": "usuario173@example.com",
+    "edad": 24,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-09-13"
+  },
+  {
+    "id": 174,
+    "nombre": "Usuario 174",
+    "email": "usuario174@example.com",
+    "edad": 58,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-12-15"
+  },
+  {
+    "id": 175,
+    "nombre": "Usuario 175",
+    "email": "usuario175@example.com",
+    "edad": 29,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-01-12"
+  },
+  {
+    "id": 176,
+    "nombre": "Usuario 176",
+    "email": "usuario176@example.com",
+    "edad": 52,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-12-14"
+  },
+  {
+    "id": 177,
+    "nombre": "Usuario 177",
+    "email": "usuario177@example.com",
+    "edad": 50,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-05-05"
+  },
+  {
+    "id": 178,
+    "nombre": "Usuario 178",
+    "email": "usuario178@example.com",
+    "edad": 40,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-06-25"
+  },
+  {
+    "id": 179,
+    "nombre": "Usuario 179",
+    "email": "usuario179@example.com",
+    "edad": 49,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-10-08"
+  },
+  {
+    "id": 180,
+    "nombre": "Usuario 180",
+    "email": "usuario180@example.com",
+    "edad": 22,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-06-20"
+  },
+  {
+    "id": 181,
+    "nombre": "Usuario 181",
+    "email": "usuario181@example.com",
+    "edad": 33,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-05-22"
+  },
+  {
+    "id": 182,
+    "nombre": "Usuario 182",
+    "email": "usuario182@example.com",
+    "edad": 57,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-11-19"
+  },
+  {
+    "id": 183,
+    "nombre": "Usuario 183",
+    "email": "usuario183@example.com",
+    "edad": 55,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-06-14"
+  },
+  {
+    "id": 184,
+    "nombre": "Usuario 184",
+    "email": "usuario184@example.com",
+    "edad": 46,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-01-14"
+  },
+  {
+    "id": 185,
+    "nombre": "Usuario 185",
+    "email": "usuario185@example.com",
+    "edad": 50,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-01-10"
+  },
+  {
+    "id": 186,
+    "nombre": "Usuario 186",
+    "email": "usuario186@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-05-25"
+  },
+  {
+    "id": 187,
+    "nombre": "Usuario 187",
+    "email": "usuario187@example.com",
+    "edad": 29,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-10-01"
+  },
+  {
+    "id": 188,
+    "nombre": "Usuario 188",
+    "email": "usuario188@example.com",
+    "edad": 33,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-03-21"
+  },
+  {
+    "id": 189,
+    "nombre": "Usuario 189",
+    "email": "usuario189@example.com",
+    "edad": 29,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-07-03"
+  },
+  {
+    "id": 190,
+    "nombre": "Usuario 190",
+    "email": "usuario190@example.com",
+    "edad": 29,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-06-12"
+  },
+  {
+    "id": 191,
+    "nombre": "Usuario 191",
+    "email": "usuario191@example.com",
+    "edad": 22,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-10-11"
+  },
+  {
+    "id": 192,
+    "nombre": "Usuario 192",
+    "email": "usuario192@example.com",
+    "edad": 29,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-08-19"
+  },
+  {
+    "id": 193,
+    "nombre": "Usuario 193",
+    "email": "usuario193@example.com",
+    "edad": 41,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-12-16"
+  },
+  {
+    "id": 194,
+    "nombre": "Usuario 194",
+    "email": "usuario194@example.com",
+    "edad": 31,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-06-24"
+  },
+  {
+    "id": 195,
+    "nombre": "Usuario 195",
+    "email": "usuario195@example.com",
+    "edad": 52,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-04-02"
+  },
+  {
+    "id": 196,
+    "nombre": "Usuario 196",
+    "email": "usuario196@example.com",
+    "edad": 57,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-03-17"
+  },
+  {
+    "id": 197,
+    "nombre": "Usuario 197",
+    "email": "usuario197@example.com",
+    "edad": 19,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-01-24"
+  },
+  {
+    "id": 198,
+    "nombre": "Usuario 198",
+    "email": "usuario198@example.com",
+    "edad": 31,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-09-23"
+  },
+  {
+    "id": 199,
+    "nombre": "Usuario 199",
+    "email": "usuario199@example.com",
+    "edad": 47,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-03-28"
+  },
+  {
+    "id": 200,
+    "nombre": "Usuario 200",
+    "email": "usuario200@example.com",
+    "edad": 51,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-10-09"
+  },
+  {
+    "id": 201,
+    "nombre": "Usuario 201",
+    "email": "usuario201@example.com",
+    "edad": 40,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-10-05"
+  },
+  {
+    "id": 202,
+    "nombre": "Usuario 202",
+    "email": "usuario202@example.com",
+    "edad": 30,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-02-02"
+  },
+  {
+    "id": 203,
+    "nombre": "Usuario 203",
+    "email": "usuario203@example.com",
+    "edad": 23,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-09"
+  },
+  {
+    "id": 204,
+    "nombre": "Usuario 204",
+    "email": "usuario204@example.com",
+    "edad": 52,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-12-11"
+  },
+  {
+    "id": 205,
+    "nombre": "Usuario 205",
+    "email": "usuario205@example.com",
+    "edad": 30,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-10-21"
+  },
+  {
+    "id": 206,
+    "nombre": "Usuario 206",
+    "email": "usuario206@example.com",
+    "edad": 35,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-11-24"
+  },
+  {
+    "id": 207,
+    "nombre": "Usuario 207",
+    "email": "usuario207@example.com",
+    "edad": 60,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-12-09"
+  },
+  {
+    "id": 208,
+    "nombre": "Usuario 208",
+    "email": "usuario208@example.com",
+    "edad": 51,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-03-27"
+  },
+  {
+    "id": 209,
+    "nombre": "Usuario 209",
+    "email": "usuario209@example.com",
+    "edad": 24,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-07-08"
+  },
+  {
+    "id": 210,
+    "nombre": "Usuario 210",
+    "email": "usuario210@example.com",
+    "edad": 59,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-02-14"
+  },
+  {
+    "id": 211,
+    "nombre": "Usuario 211",
+    "email": "usuario211@example.com",
+    "edad": 25,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-01-03"
+  },
+  {
+    "id": 212,
+    "nombre": "Usuario 212",
+    "email": "usuario212@example.com",
+    "edad": 32,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-08-28"
+  },
+  {
+    "id": 213,
+    "nombre": "Usuario 213",
+    "email": "usuario213@example.com",
+    "edad": 57,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-04-28"
+  },
+  {
+    "id": 214,
+    "nombre": "Usuario 214",
+    "email": "usuario214@example.com",
+    "edad": 41,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-02-17"
+  },
+  {
+    "id": 215,
+    "nombre": "Usuario 215",
+    "email": "usuario215@example.com",
+    "edad": 59,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-08-27"
+  },
+  {
+    "id": 216,
+    "nombre": "Usuario 216",
+    "email": "usuario216@example.com",
+    "edad": 18,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-04-03"
+  },
+  {
+    "id": 217,
+    "nombre": "Usuario 217",
+    "email": "usuario217@example.com",
+    "edad": 24,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-01-25"
+  },
+  {
+    "id": 218,
+    "nombre": "Usuario 218",
+    "email": "usuario218@example.com",
+    "edad": 56,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-08-02"
+  },
+  {
+    "id": 219,
+    "nombre": "Usuario 219",
+    "email": "usuario219@example.com",
+    "edad": 43,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-06-21"
+  },
+  {
+    "id": 220,
+    "nombre": "Usuario 220",
+    "email": "usuario220@example.com",
+    "edad": 37,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-02-14"
+  },
+  {
+    "id": 221,
+    "nombre": "Usuario 221",
+    "email": "usuario221@example.com",
+    "edad": 21,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-07-07"
+  },
+  {
+    "id": 222,
+    "nombre": "Usuario 222",
+    "email": "usuario222@example.com",
+    "edad": 44,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-04-21"
+  },
+  {
+    "id": 223,
+    "nombre": "Usuario 223",
+    "email": "usuario223@example.com",
+    "edad": 31,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-08-24"
+  },
+  {
+    "id": 224,
+    "nombre": "Usuario 224",
+    "email": "usuario224@example.com",
+    "edad": 22,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-08-08"
+  },
+  {
+    "id": 225,
+    "nombre": "Usuario 225",
+    "email": "usuario225@example.com",
+    "edad": 22,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-06-10"
+  },
+  {
+    "id": 226,
+    "nombre": "Usuario 226",
+    "email": "usuario226@example.com",
+    "edad": 20,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-07-15"
+  },
+  {
+    "id": 227,
+    "nombre": "Usuario 227",
+    "email": "usuario227@example.com",
+    "edad": 19,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-02-04"
+  },
+  {
+    "id": 228,
+    "nombre": "Usuario 228",
+    "email": "usuario228@example.com",
+    "edad": 43,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-12-02"
+  },
+  {
+    "id": 229,
+    "nombre": "Usuario 229",
+    "email": "usuario229@example.com",
+    "edad": 35,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-07-18"
+  },
+  {
+    "id": 230,
+    "nombre": "Usuario 230",
+    "email": "usuario230@example.com",
+    "edad": 47,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-05-09"
+  },
+  {
+    "id": 231,
+    "nombre": "Usuario 231",
+    "email": "usuario231@example.com",
+    "edad": 59,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-10-11"
+  },
+  {
+    "id": 232,
+    "nombre": "Usuario 232",
+    "email": "usuario232@example.com",
+    "edad": 32,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-08-07"
+  },
+  {
+    "id": 233,
+    "nombre": "Usuario 233",
+    "email": "usuario233@example.com",
+    "edad": 45,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-04-19"
+  },
+  {
+    "id": 234,
+    "nombre": "Usuario 234",
+    "email": "usuario234@example.com",
+    "edad": 53,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-04-15"
+  },
+  {
+    "id": 235,
+    "nombre": "Usuario 235",
+    "email": "usuario235@example.com",
+    "edad": 41,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-07-09"
+  },
+  {
+    "id": 236,
+    "nombre": "Usuario 236",
+    "email": "usuario236@example.com",
+    "edad": 45,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-01-21"
+  },
+  {
+    "id": 237,
+    "nombre": "Usuario 237",
+    "email": "usuario237@example.com",
+    "edad": 48,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-08-28"
+  },
+  {
+    "id": 238,
+    "nombre": "Usuario 238",
+    "email": "usuario238@example.com",
+    "edad": 38,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-05-27"
+  },
+  {
+    "id": 239,
+    "nombre": "Usuario 239",
+    "email": "usuario239@example.com",
+    "edad": 41,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-02-26"
+  },
+  {
+    "id": 240,
+    "nombre": "Usuario 240",
+    "email": "usuario240@example.com",
+    "edad": 65,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-08-01"
+  },
+  {
+    "id": 241,
+    "nombre": "Usuario 241",
+    "email": "usuario241@example.com",
+    "edad": 50,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-11-18"
+  },
+  {
+    "id": 242,
+    "nombre": "Usuario 242",
+    "email": "usuario242@example.com",
+    "edad": 32,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-03-22"
+  },
+  {
+    "id": 243,
+    "nombre": "Usuario 243",
+    "email": "usuario243@example.com",
+    "edad": 23,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-17"
+  },
+  {
+    "id": 244,
+    "nombre": "Usuario 244",
+    "email": "usuario244@example.com",
+    "edad": 63,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-02-01"
+  },
+  {
+    "id": 245,
+    "nombre": "Usuario 245",
+    "email": "usuario245@example.com",
+    "edad": 65,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-08-27"
+  },
+  {
+    "id": 246,
+    "nombre": "Usuario 246",
+    "email": "usuario246@example.com",
+    "edad": 53,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-02-21"
+  },
+  {
+    "id": 247,
+    "nombre": "Usuario 247",
+    "email": "usuario247@example.com",
+    "edad": 58,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-02-17"
+  },
+  {
+    "id": 248,
+    "nombre": "Usuario 248",
+    "email": "usuario248@example.com",
+    "edad": 62,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-08-16"
+  },
+  {
+    "id": 249,
+    "nombre": "Usuario 249",
+    "email": "usuario249@example.com",
+    "edad": 48,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-03-17"
+  },
+  {
+    "id": 250,
+    "nombre": "Usuario 250",
+    "email": "usuario250@example.com",
+    "edad": 19,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-09-14"
+  },
+  {
+    "id": 251,
+    "nombre": "Usuario 251",
+    "email": "usuario251@example.com",
+    "edad": 56,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-09-13"
+  },
+  {
+    "id": 252,
+    "nombre": "Usuario 252",
+    "email": "usuario252@example.com",
+    "edad": 51,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-11-28"
+  },
+  {
+    "id": 253,
+    "nombre": "Usuario 253",
+    "email": "usuario253@example.com",
+    "edad": 34,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-06-13"
+  },
+  {
+    "id": 254,
+    "nombre": "Usuario 254",
+    "email": "usuario254@example.com",
+    "edad": 53,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-11-20"
+  },
+  {
+    "id": 255,
+    "nombre": "Usuario 255",
+    "email": "usuario255@example.com",
+    "edad": 24,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-02-04"
+  },
+  {
+    "id": 256,
+    "nombre": "Usuario 256",
+    "email": "usuario256@example.com",
+    "edad": 55,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-04-15"
+  },
+  {
+    "id": 257,
+    "nombre": "Usuario 257",
+    "email": "usuario257@example.com",
+    "edad": 28,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-06-21"
+  },
+  {
+    "id": 258,
+    "nombre": "Usuario 258",
+    "email": "usuario258@example.com",
+    "edad": 44,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-04-22"
+  },
+  {
+    "id": 259,
+    "nombre": "Usuario 259",
+    "email": "usuario259@example.com",
+    "edad": 18,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-11-10"
+  },
+  {
+    "id": 260,
+    "nombre": "Usuario 260",
+    "email": "usuario260@example.com",
+    "edad": 26,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-06-13"
+  },
+  {
+    "id": 261,
+    "nombre": "Usuario 261",
+    "email": "usuario261@example.com",
+    "edad": 18,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-07-20"
+  },
+  {
+    "id": 262,
+    "nombre": "Usuario 262",
+    "email": "usuario262@example.com",
+    "edad": 22,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-04-16"
+  },
+  {
+    "id": 263,
+    "nombre": "Usuario 263",
+    "email": "usuario263@example.com",
+    "edad": 25,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-09-17"
+  },
+  {
+    "id": 264,
+    "nombre": "Usuario 264",
+    "email": "usuario264@example.com",
+    "edad": 51,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-11-04"
+  },
+  {
+    "id": 265,
+    "nombre": "Usuario 265",
+    "email": "usuario265@example.com",
+    "edad": 23,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-01-07"
+  },
+  {
+    "id": 266,
+    "nombre": "Usuario 266",
+    "email": "usuario266@example.com",
+    "edad": 26,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-11-07"
+  },
+  {
+    "id": 267,
+    "nombre": "Usuario 267",
+    "email": "usuario267@example.com",
+    "edad": 27,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-01-01"
+  },
+  {
+    "id": 268,
+    "nombre": "Usuario 268",
+    "email": "usuario268@example.com",
+    "edad": 38,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-06-15"
+  },
+  {
+    "id": 269,
+    "nombre": "Usuario 269",
+    "email": "usuario269@example.com",
+    "edad": 21,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-07-14"
+  },
+  {
+    "id": 270,
+    "nombre": "Usuario 270",
+    "email": "usuario270@example.com",
+    "edad": 38,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-08-25"
+  },
+  {
+    "id": 271,
+    "nombre": "Usuario 271",
+    "email": "usuario271@example.com",
+    "edad": 53,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-05-14"
+  },
+  {
+    "id": 272,
+    "nombre": "Usuario 272",
+    "email": "usuario272@example.com",
+    "edad": 34,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-12-10"
+  },
+  {
+    "id": 273,
+    "nombre": "Usuario 273",
+    "email": "usuario273@example.com",
+    "edad": 52,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-01-27"
+  },
+  {
+    "id": 274,
+    "nombre": "Usuario 274",
+    "email": "usuario274@example.com",
+    "edad": 43,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-01-24"
+  },
+  {
+    "id": 275,
+    "nombre": "Usuario 275",
+    "email": "usuario275@example.com",
+    "edad": 20,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-10-04"
+  },
+  {
+    "id": 276,
+    "nombre": "Usuario 276",
+    "email": "usuario276@example.com",
+    "edad": 60,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-04-10"
+  },
+  {
+    "id": 277,
+    "nombre": "Usuario 277",
+    "email": "usuario277@example.com",
+    "edad": 24,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-12-09"
+  },
+  {
+    "id": 278,
+    "nombre": "Usuario 278",
+    "email": "usuario278@example.com",
+    "edad": 44,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-06-16"
+  },
+  {
+    "id": 279,
+    "nombre": "Usuario 279",
+    "email": "usuario279@example.com",
+    "edad": 56,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-10-16"
+  },
+  {
+    "id": 280,
+    "nombre": "Usuario 280",
+    "email": "usuario280@example.com",
+    "edad": 60,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-03-04"
+  },
+  {
+    "id": 281,
+    "nombre": "Usuario 281",
+    "email": "usuario281@example.com",
+    "edad": 58,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-06-18"
+  },
+  {
+    "id": 282,
+    "nombre": "Usuario 282",
+    "email": "usuario282@example.com",
+    "edad": 55,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-12-01"
+  },
+  {
+    "id": 283,
+    "nombre": "Usuario 283",
+    "email": "usuario283@example.com",
+    "edad": 38,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-11"
+  },
+  {
+    "id": 284,
+    "nombre": "Usuario 284",
+    "email": "usuario284@example.com",
+    "edad": 36,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-01-12"
+  },
+  {
+    "id": 285,
+    "nombre": "Usuario 285",
+    "email": "usuario285@example.com",
+    "edad": 43,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-11-21"
+  },
+  {
+    "id": 286,
+    "nombre": "Usuario 286",
+    "email": "usuario286@example.com",
+    "edad": 56,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-08-21"
+  },
+  {
+    "id": 287,
+    "nombre": "Usuario 287",
+    "email": "usuario287@example.com",
+    "edad": 40,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-01-18"
+  },
+  {
+    "id": 288,
+    "nombre": "Usuario 288",
+    "email": "usuario288@example.com",
+    "edad": 56,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-05-08"
+  },
+  {
+    "id": 289,
+    "nombre": "Usuario 289",
+    "email": "usuario289@example.com",
+    "edad": 60,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-02-19"
+  },
+  {
+    "id": 290,
+    "nombre": "Usuario 290",
+    "email": "usuario290@example.com",
+    "edad": 42,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-02-26"
+  },
+  {
+    "id": 291,
+    "nombre": "Usuario 291",
+    "email": "usuario291@example.com",
+    "edad": 63,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-01-19"
+  },
+  {
+    "id": 292,
+    "nombre": "Usuario 292",
+    "email": "usuario292@example.com",
+    "edad": 65,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-09-03"
+  },
+  {
+    "id": 293,
+    "nombre": "Usuario 293",
+    "email": "usuario293@example.com",
+    "edad": 22,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-07-12"
+  },
+  {
+    "id": 294,
+    "nombre": "Usuario 294",
+    "email": "usuario294@example.com",
+    "edad": 61,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-15"
+  },
+  {
+    "id": 295,
+    "nombre": "Usuario 295",
+    "email": "usuario295@example.com",
+    "edad": 38,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-17"
+  },
+  {
+    "id": 296,
+    "nombre": "Usuario 296",
+    "email": "usuario296@example.com",
+    "edad": 27,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-04-14"
+  },
+  {
+    "id": 297,
+    "nombre": "Usuario 297",
+    "email": "usuario297@example.com",
+    "edad": 30,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-26"
+  },
+  {
+    "id": 298,
+    "nombre": "Usuario 298",
+    "email": "usuario298@example.com",
+    "edad": 22,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-02-08"
+  },
+  {
+    "id": 299,
+    "nombre": "Usuario 299",
+    "email": "usuario299@example.com",
+    "edad": 45,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-04-17"
+  },
+  {
+    "id": 300,
+    "nombre": "Usuario 300",
+    "email": "usuario300@example.com",
+    "edad": 20,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-12-03"
+  },
+  {
+    "id": 301,
+    "nombre": "Usuario 301",
+    "email": "usuario301@example.com",
+    "edad": 43,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-07-14"
+  },
+  {
+    "id": 302,
+    "nombre": "Usuario 302",
+    "email": "usuario302@example.com",
+    "edad": 18,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-08"
+  },
+  {
+    "id": 303,
+    "nombre": "Usuario 303",
+    "email": "usuario303@example.com",
+    "edad": 18,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-03-04"
+  },
+  {
+    "id": 304,
+    "nombre": "Usuario 304",
+    "email": "usuario304@example.com",
+    "edad": 18,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-09-05"
+  },
+  {
+    "id": 305,
+    "nombre": "Usuario 305",
+    "email": "usuario305@example.com",
+    "edad": 50,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-02-28"
+  },
+  {
+    "id": 306,
+    "nombre": "Usuario 306",
+    "email": "usuario306@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-10-02"
+  },
+  {
+    "id": 307,
+    "nombre": "Usuario 307",
+    "email": "usuario307@example.com",
+    "edad": 23,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-03-23"
+  },
+  {
+    "id": 308,
+    "nombre": "Usuario 308",
+    "email": "usuario308@example.com",
+    "edad": 49,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-11-10"
+  },
+  {
+    "id": 309,
+    "nombre": "Usuario 309",
+    "email": "usuario309@example.com",
+    "edad": 56,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-12-10"
+  },
+  {
+    "id": 310,
+    "nombre": "Usuario 310",
+    "email": "usuario310@example.com",
+    "edad": 18,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-09-25"
+  },
+  {
+    "id": 311,
+    "nombre": "Usuario 311",
+    "email": "usuario311@example.com",
+    "edad": 53,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-05-26"
+  },
+  {
+    "id": 312,
+    "nombre": "Usuario 312",
+    "email": "usuario312@example.com",
+    "edad": 38,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-09-18"
+  },
+  {
+    "id": 313,
+    "nombre": "Usuario 313",
+    "email": "usuario313@example.com",
+    "edad": 29,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-08-04"
+  },
+  {
+    "id": 314,
+    "nombre": "Usuario 314",
+    "email": "usuario314@example.com",
+    "edad": 27,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-04-22"
+  },
+  {
+    "id": 315,
+    "nombre": "Usuario 315",
+    "email": "usuario315@example.com",
+    "edad": 61,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-08-08"
+  },
+  {
+    "id": 316,
+    "nombre": "Usuario 316",
+    "email": "usuario316@example.com",
+    "edad": 20,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-19"
+  },
+  {
+    "id": 317,
+    "nombre": "Usuario 317",
+    "email": "usuario317@example.com",
+    "edad": 30,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-08-16"
+  },
+  {
+    "id": 318,
+    "nombre": "Usuario 318",
+    "email": "usuario318@example.com",
+    "edad": 58,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-01-24"
+  },
+  {
+    "id": 319,
+    "nombre": "Usuario 319",
+    "email": "usuario319@example.com",
+    "edad": 28,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-07-28"
+  },
+  {
+    "id": 320,
+    "nombre": "Usuario 320",
+    "email": "usuario320@example.com",
+    "edad": 43,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-01-16"
+  },
+  {
+    "id": 321,
+    "nombre": "Usuario 321",
+    "email": "usuario321@example.com",
+    "edad": 36,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-04-19"
+  },
+  {
+    "id": 322,
+    "nombre": "Usuario 322",
+    "email": "usuario322@example.com",
+    "edad": 38,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-06-23"
+  },
+  {
+    "id": 323,
+    "nombre": "Usuario 323",
+    "email": "usuario323@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-10-27"
+  },
+  {
+    "id": 324,
+    "nombre": "Usuario 324",
+    "email": "usuario324@example.com",
+    "edad": 41,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-07-22"
+  },
+  {
+    "id": 325,
+    "nombre": "Usuario 325",
+    "email": "usuario325@example.com",
+    "edad": 56,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-09-13"
+  },
+  {
+    "id": 326,
+    "nombre": "Usuario 326",
+    "email": "usuario326@example.com",
+    "edad": 22,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-10-09"
+  },
+  {
+    "id": 327,
+    "nombre": "Usuario 327",
+    "email": "usuario327@example.com",
+    "edad": 37,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-09-12"
+  },
+  {
+    "id": 328,
+    "nombre": "Usuario 328",
+    "email": "usuario328@example.com",
+    "edad": 52,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-06-04"
+  },
+  {
+    "id": 329,
+    "nombre": "Usuario 329",
+    "email": "usuario329@example.com",
+    "edad": 23,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-09-10"
+  },
+  {
+    "id": 330,
+    "nombre": "Usuario 330",
+    "email": "usuario330@example.com",
+    "edad": 63,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-01-26"
+  },
+  {
+    "id": 331,
+    "nombre": "Usuario 331",
+    "email": "usuario331@example.com",
+    "edad": 24,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-12-18"
+  },
+  {
+    "id": 332,
+    "nombre": "Usuario 332",
+    "email": "usuario332@example.com",
+    "edad": 63,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-05-14"
+  },
+  {
+    "id": 333,
+    "nombre": "Usuario 333",
+    "email": "usuario333@example.com",
+    "edad": 23,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-10-01"
+  },
+  {
+    "id": 334,
+    "nombre": "Usuario 334",
+    "email": "usuario334@example.com",
+    "edad": 19,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-07-03"
+  },
+  {
+    "id": 335,
+    "nombre": "Usuario 335",
+    "email": "usuario335@example.com",
+    "edad": 57,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-03-12"
+  },
+  {
+    "id": 336,
+    "nombre": "Usuario 336",
+    "email": "usuario336@example.com",
+    "edad": 26,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-03-03"
+  },
+  {
+    "id": 337,
+    "nombre": "Usuario 337",
+    "email": "usuario337@example.com",
+    "edad": 63,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-12-22"
+  },
+  {
+    "id": 338,
+    "nombre": "Usuario 338",
+    "email": "usuario338@example.com",
+    "edad": 27,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-06-12"
+  },
+  {
+    "id": 339,
+    "nombre": "Usuario 339",
+    "email": "usuario339@example.com",
+    "edad": 38,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-05-27"
+  },
+  {
+    "id": 340,
+    "nombre": "Usuario 340",
+    "email": "usuario340@example.com",
+    "edad": 21,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-01-18"
+  },
+  {
+    "id": 341,
+    "nombre": "Usuario 341",
+    "email": "usuario341@example.com",
+    "edad": 47,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-04-12"
+  },
+  {
+    "id": 342,
+    "nombre": "Usuario 342",
+    "email": "usuario342@example.com",
+    "edad": 33,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-10-05"
+  },
+  {
+    "id": 343,
+    "nombre": "Usuario 343",
+    "email": "usuario343@example.com",
+    "edad": 18,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-11-08"
+  },
+  {
+    "id": 344,
+    "nombre": "Usuario 344",
+    "email": "usuario344@example.com",
+    "edad": 64,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-11-19"
+  },
+  {
+    "id": 345,
+    "nombre": "Usuario 345",
+    "email": "usuario345@example.com",
+    "edad": 41,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-10-21"
+  },
+  {
+    "id": 346,
+    "nombre": "Usuario 346",
+    "email": "usuario346@example.com",
+    "edad": 38,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-05-18"
+  },
+  {
+    "id": 347,
+    "nombre": "Usuario 347",
+    "email": "usuario347@example.com",
+    "edad": 51,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-03-25"
+  },
+  {
+    "id": 348,
+    "nombre": "Usuario 348",
+    "email": "usuario348@example.com",
+    "edad": 36,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-06-27"
+  },
+  {
+    "id": 349,
+    "nombre": "Usuario 349",
+    "email": "usuario349@example.com",
+    "edad": 35,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-05-20"
+  },
+  {
+    "id": 350,
+    "nombre": "Usuario 350",
+    "email": "usuario350@example.com",
+    "edad": 38,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-05-19"
+  },
+  {
+    "id": 351,
+    "nombre": "Usuario 351",
+    "email": "usuario351@example.com",
+    "edad": 46,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-03-15"
+  },
+  {
+    "id": 352,
+    "nombre": "Usuario 352",
+    "email": "usuario352@example.com",
+    "edad": 42,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-12-18"
+  },
+  {
+    "id": 353,
+    "nombre": "Usuario 353",
+    "email": "usuario353@example.com",
+    "edad": 33,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-08-03"
+  },
+  {
+    "id": 354,
+    "nombre": "Usuario 354",
+    "email": "usuario354@example.com",
+    "edad": 43,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-02-11"
+  },
+  {
+    "id": 355,
+    "nombre": "Usuario 355",
+    "email": "usuario355@example.com",
+    "edad": 38,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-09-28"
+  },
+  {
+    "id": 356,
+    "nombre": "Usuario 356",
+    "email": "usuario356@example.com",
+    "edad": 51,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-10-02"
+  },
+  {
+    "id": 357,
+    "nombre": "Usuario 357",
+    "email": "usuario357@example.com",
+    "edad": 48,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-03-13"
+  },
+  {
+    "id": 358,
+    "nombre": "Usuario 358",
+    "email": "usuario358@example.com",
+    "edad": 19,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-04-14"
+  },
+  {
+    "id": 359,
+    "nombre": "Usuario 359",
+    "email": "usuario359@example.com",
+    "edad": 37,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-10-21"
+  },
+  {
+    "id": 360,
+    "nombre": "Usuario 360",
+    "email": "usuario360@example.com",
+    "edad": 36,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-02-04"
+  },
+  {
+    "id": 361,
+    "nombre": "Usuario 361",
+    "email": "usuario361@example.com",
+    "edad": 20,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-06-03"
+  },
+  {
+    "id": 362,
+    "nombre": "Usuario 362",
+    "email": "usuario362@example.com",
+    "edad": 22,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-09-13"
+  },
+  {
+    "id": 363,
+    "nombre": "Usuario 363",
+    "email": "usuario363@example.com",
+    "edad": 38,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-06-01"
+  },
+  {
+    "id": 364,
+    "nombre": "Usuario 364",
+    "email": "usuario364@example.com",
+    "edad": 47,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-17"
+  },
+  {
+    "id": 365,
+    "nombre": "Usuario 365",
+    "email": "usuario365@example.com",
+    "edad": 28,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-06-11"
+  },
+  {
+    "id": 366,
+    "nombre": "Usuario 366",
+    "email": "usuario366@example.com",
+    "edad": 49,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-10-28"
+  },
+  {
+    "id": 367,
+    "nombre": "Usuario 367",
+    "email": "usuario367@example.com",
+    "edad": 59,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-08-27"
+  },
+  {
+    "id": 368,
+    "nombre": "Usuario 368",
+    "email": "usuario368@example.com",
+    "edad": 63,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-06-07"
+  },
+  {
+    "id": 369,
+    "nombre": "Usuario 369",
+    "email": "usuario369@example.com",
+    "edad": 52,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-12-16"
+  },
+  {
+    "id": 370,
+    "nombre": "Usuario 370",
+    "email": "usuario370@example.com",
+    "edad": 31,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-04-07"
+  },
+  {
+    "id": 371,
+    "nombre": "Usuario 371",
+    "email": "usuario371@example.com",
+    "edad": 33,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-07-04"
+  },
+  {
+    "id": 372,
+    "nombre": "Usuario 372",
+    "email": "usuario372@example.com",
+    "edad": 21,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-05-19"
+  },
+  {
+    "id": 373,
+    "nombre": "Usuario 373",
+    "email": "usuario373@example.com",
+    "edad": 58,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-10-22"
+  },
+  {
+    "id": 374,
+    "nombre": "Usuario 374",
+    "email": "usuario374@example.com",
+    "edad": 51,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-09-24"
+  },
+  {
+    "id": 375,
+    "nombre": "Usuario 375",
+    "email": "usuario375@example.com",
+    "edad": 43,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-03-13"
+  },
+  {
+    "id": 376,
+    "nombre": "Usuario 376",
+    "email": "usuario376@example.com",
+    "edad": 20,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-02-11"
+  },
+  {
+    "id": 377,
+    "nombre": "Usuario 377",
+    "email": "usuario377@example.com",
+    "edad": 52,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-09-14"
+  },
+  {
+    "id": 378,
+    "nombre": "Usuario 378",
+    "email": "usuario378@example.com",
+    "edad": 60,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-05-26"
+  },
+  {
+    "id": 379,
+    "nombre": "Usuario 379",
+    "email": "usuario379@example.com",
+    "edad": 56,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-10-06"
+  },
+  {
+    "id": 380,
+    "nombre": "Usuario 380",
+    "email": "usuario380@example.com",
+    "edad": 26,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-08-02"
+  },
+  {
+    "id": 381,
+    "nombre": "Usuario 381",
+    "email": "usuario381@example.com",
+    "edad": 50,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-03-01"
+  },
+  {
+    "id": 382,
+    "nombre": "Usuario 382",
+    "email": "usuario382@example.com",
+    "edad": 62,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-11-01"
+  },
+  {
+    "id": 383,
+    "nombre": "Usuario 383",
+    "email": "usuario383@example.com",
+    "edad": 62,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-10-18"
+  },
+  {
+    "id": 384,
+    "nombre": "Usuario 384",
+    "email": "usuario384@example.com",
+    "edad": 44,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-07-21"
+  },
+  {
+    "id": 385,
+    "nombre": "Usuario 385",
+    "email": "usuario385@example.com",
+    "edad": 28,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-06"
+  },
+  {
+    "id": 386,
+    "nombre": "Usuario 386",
+    "email": "usuario386@example.com",
+    "edad": 44,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-05-13"
+  },
+  {
+    "id": 387,
+    "nombre": "Usuario 387",
+    "email": "usuario387@example.com",
+    "edad": 20,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-28"
+  },
+  {
+    "id": 388,
+    "nombre": "Usuario 388",
+    "email": "usuario388@example.com",
+    "edad": 57,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-01-08"
+  },
+  {
+    "id": 389,
+    "nombre": "Usuario 389",
+    "email": "usuario389@example.com",
+    "edad": 36,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-04-14"
+  },
+  {
+    "id": 390,
+    "nombre": "Usuario 390",
+    "email": "usuario390@example.com",
+    "edad": 40,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-04-24"
+  },
+  {
+    "id": 391,
+    "nombre": "Usuario 391",
+    "email": "usuario391@example.com",
+    "edad": 21,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-12-04"
+  },
+  {
+    "id": 392,
+    "nombre": "Usuario 392",
+    "email": "usuario392@example.com",
+    "edad": 53,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-03-19"
+  },
+  {
+    "id": 393,
+    "nombre": "Usuario 393",
+    "email": "usuario393@example.com",
+    "edad": 32,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-02-17"
+  },
+  {
+    "id": 394,
+    "nombre": "Usuario 394",
+    "email": "usuario394@example.com",
+    "edad": 45,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-07-04"
+  },
+  {
+    "id": 395,
+    "nombre": "Usuario 395",
+    "email": "usuario395@example.com",
+    "edad": 33,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-08-07"
+  },
+  {
+    "id": 396,
+    "nombre": "Usuario 396",
+    "email": "usuario396@example.com",
+    "edad": 38,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-22"
+  },
+  {
+    "id": 397,
+    "nombre": "Usuario 397",
+    "email": "usuario397@example.com",
+    "edad": 29,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-02-11"
+  },
+  {
+    "id": 398,
+    "nombre": "Usuario 398",
+    "email": "usuario398@example.com",
+    "edad": 57,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-04-12"
+  },
+  {
+    "id": 399,
+    "nombre": "Usuario 399",
+    "email": "usuario399@example.com",
+    "edad": 64,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-05-28"
+  },
+  {
+    "id": 400,
+    "nombre": "Usuario 400",
+    "email": "usuario400@example.com",
+    "edad": 41,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-01-18"
+  },
+  {
+    "id": 401,
+    "nombre": "Usuario 401",
+    "email": "usuario401@example.com",
+    "edad": 61,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-04-05"
+  },
+  {
+    "id": 402,
+    "nombre": "Usuario 402",
+    "email": "usuario402@example.com",
+    "edad": 48,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-09-26"
+  },
+  {
+    "id": 403,
+    "nombre": "Usuario 403",
+    "email": "usuario403@example.com",
+    "edad": 18,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-02-17"
+  },
+  {
+    "id": 404,
+    "nombre": "Usuario 404",
+    "email": "usuario404@example.com",
+    "edad": 35,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-05-10"
+  },
+  {
+    "id": 405,
+    "nombre": "Usuario 405",
+    "email": "usuario405@example.com",
+    "edad": 40,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-09-13"
+  },
+  {
+    "id": 406,
+    "nombre": "Usuario 406",
+    "email": "usuario406@example.com",
+    "edad": 41,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-18"
+  },
+  {
+    "id": 407,
+    "nombre": "Usuario 407",
+    "email": "usuario407@example.com",
+    "edad": 32,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-02-12"
+  },
+  {
+    "id": 408,
+    "nombre": "Usuario 408",
+    "email": "usuario408@example.com",
+    "edad": 40,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-06-18"
+  },
+  {
+    "id": 409,
+    "nombre": "Usuario 409",
+    "email": "usuario409@example.com",
+    "edad": 60,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-11-24"
+  },
+  {
+    "id": 410,
+    "nombre": "Usuario 410",
+    "email": "usuario410@example.com",
+    "edad": 31,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-10-13"
+  },
+  {
+    "id": 411,
+    "nombre": "Usuario 411",
+    "email": "usuario411@example.com",
+    "edad": 61,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-03-28"
+  },
+  {
+    "id": 412,
+    "nombre": "Usuario 412",
+    "email": "usuario412@example.com",
+    "edad": 25,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-09-09"
+  },
+  {
+    "id": 413,
+    "nombre": "Usuario 413",
+    "email": "usuario413@example.com",
+    "edad": 32,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-05-19"
+  },
+  {
+    "id": 414,
+    "nombre": "Usuario 414",
+    "email": "usuario414@example.com",
+    "edad": 24,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-09-20"
+  },
+  {
+    "id": 415,
+    "nombre": "Usuario 415",
+    "email": "usuario415@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-02-01"
+  },
+  {
+    "id": 416,
+    "nombre": "Usuario 416",
+    "email": "usuario416@example.com",
+    "edad": 46,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-08-21"
+  },
+  {
+    "id": 417,
+    "nombre": "Usuario 417",
+    "email": "usuario417@example.com",
+    "edad": 53,
+    "pais": "Uruguay",
+    "activo": false,
+    "fechaRegistro": "2025-03-14"
+  },
+  {
+    "id": 418,
+    "nombre": "Usuario 418",
+    "email": "usuario418@example.com",
+    "edad": 35,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-09-23"
+  },
+  {
+    "id": 419,
+    "nombre": "Usuario 419",
+    "email": "usuario419@example.com",
+    "edad": 62,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-08-07"
+  },
+  {
+    "id": 420,
+    "nombre": "Usuario 420",
+    "email": "usuario420@example.com",
+    "edad": 29,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-11-23"
+  },
+  {
+    "id": 421,
+    "nombre": "Usuario 421",
+    "email": "usuario421@example.com",
+    "edad": 42,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-07-12"
+  },
+  {
+    "id": 422,
+    "nombre": "Usuario 422",
+    "email": "usuario422@example.com",
+    "edad": 63,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-26"
+  },
+  {
+    "id": 423,
+    "nombre": "Usuario 423",
+    "email": "usuario423@example.com",
+    "edad": 57,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-03-09"
+  },
+  {
+    "id": 424,
+    "nombre": "Usuario 424",
+    "email": "usuario424@example.com",
+    "edad": 53,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-06-04"
+  },
+  {
+    "id": 425,
+    "nombre": "Usuario 425",
+    "email": "usuario425@example.com",
+    "edad": 49,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-07-07"
+  },
+  {
+    "id": 426,
+    "nombre": "Usuario 426",
+    "email": "usuario426@example.com",
+    "edad": 56,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-12-26"
+  },
+  {
+    "id": 427,
+    "nombre": "Usuario 427",
+    "email": "usuario427@example.com",
+    "edad": 65,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": 428,
+    "nombre": "Usuario 428",
+    "email": "usuario428@example.com",
+    "edad": 40,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-08-23"
+  },
+  {
+    "id": 429,
+    "nombre": "Usuario 429",
+    "email": "usuario429@example.com",
+    "edad": 42,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-07-02"
+  },
+  {
+    "id": 430,
+    "nombre": "Usuario 430",
+    "email": "usuario430@example.com",
+    "edad": 29,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-04-25"
+  },
+  {
+    "id": 431,
+    "nombre": "Usuario 431",
+    "email": "usuario431@example.com",
+    "edad": 64,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-08-14"
+  },
+  {
+    "id": 432,
+    "nombre": "Usuario 432",
+    "email": "usuario432@example.com",
+    "edad": 28,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-10-14"
+  },
+  {
+    "id": 433,
+    "nombre": "Usuario 433",
+    "email": "usuario433@example.com",
+    "edad": 58,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-08"
+  },
+  {
+    "id": 434,
+    "nombre": "Usuario 434",
+    "email": "usuario434@example.com",
+    "edad": 37,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-10-19"
+  },
+  {
+    "id": 435,
+    "nombre": "Usuario 435",
+    "email": "usuario435@example.com",
+    "edad": 63,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-06-21"
+  },
+  {
+    "id": 436,
+    "nombre": "Usuario 436",
+    "email": "usuario436@example.com",
+    "edad": 31,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-11-17"
+  },
+  {
+    "id": 437,
+    "nombre": "Usuario 437",
+    "email": "usuario437@example.com",
+    "edad": 29,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-12-17"
+  },
+  {
+    "id": 438,
+    "nombre": "Usuario 438",
+    "email": "usuario438@example.com",
+    "edad": 57,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-04-06"
+  },
+  {
+    "id": 439,
+    "nombre": "Usuario 439",
+    "email": "usuario439@example.com",
+    "edad": 37,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-07-23"
+  },
+  {
+    "id": 440,
+    "nombre": "Usuario 440",
+    "email": "usuario440@example.com",
+    "edad": 60,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-07-02"
+  },
+  {
+    "id": 441,
+    "nombre": "Usuario 441",
+    "email": "usuario441@example.com",
+    "edad": 34,
+    "pais": "Argentina",
+    "activo": false,
+    "fechaRegistro": "2025-07-28"
+  },
+  {
+    "id": 442,
+    "nombre": "Usuario 442",
+    "email": "usuario442@example.com",
+    "edad": 28,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-01-16"
+  },
+  {
+    "id": 443,
+    "nombre": "Usuario 443",
+    "email": "usuario443@example.com",
+    "edad": 19,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-11-25"
+  },
+  {
+    "id": 444,
+    "nombre": "Usuario 444",
+    "email": "usuario444@example.com",
+    "edad": 59,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-06-12"
+  },
+  {
+    "id": 445,
+    "nombre": "Usuario 445",
+    "email": "usuario445@example.com",
+    "edad": 43,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-03-14"
+  },
+  {
+    "id": 446,
+    "nombre": "Usuario 446",
+    "email": "usuario446@example.com",
+    "edad": 19,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-12-01"
+  },
+  {
+    "id": 447,
+    "nombre": "Usuario 447",
+    "email": "usuario447@example.com",
+    "edad": 26,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-10-04"
+  },
+  {
+    "id": 448,
+    "nombre": "Usuario 448",
+    "email": "usuario448@example.com",
+    "edad": 35,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-02-26"
+  },
+  {
+    "id": 449,
+    "nombre": "Usuario 449",
+    "email": "usuario449@example.com",
+    "edad": 47,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-03-22"
+  },
+  {
+    "id": 450,
+    "nombre": "Usuario 450",
+    "email": "usuario450@example.com",
+    "edad": 35,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-07-10"
+  },
+  {
+    "id": 451,
+    "nombre": "Usuario 451",
+    "email": "usuario451@example.com",
+    "edad": 35,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-02-19"
+  },
+  {
+    "id": 452,
+    "nombre": "Usuario 452",
+    "email": "usuario452@example.com",
+    "edad": 50,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-12-04"
+  },
+  {
+    "id": 453,
+    "nombre": "Usuario 453",
+    "email": "usuario453@example.com",
+    "edad": 19,
+    "pais": "Colombia",
+    "activo": true,
+    "fechaRegistro": "2025-02-10"
+  },
+  {
+    "id": 454,
+    "nombre": "Usuario 454",
+    "email": "usuario454@example.com",
+    "edad": 35,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-10-24"
+  },
+  {
+    "id": 455,
+    "nombre": "Usuario 455",
+    "email": "usuario455@example.com",
+    "edad": 24,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-12-24"
+  },
+  {
+    "id": 456,
+    "nombre": "Usuario 456",
+    "email": "usuario456@example.com",
+    "edad": 30,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-09-14"
+  },
+  {
+    "id": 457,
+    "nombre": "Usuario 457",
+    "email": "usuario457@example.com",
+    "edad": 24,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-05-01"
+  },
+  {
+    "id": 458,
+    "nombre": "Usuario 458",
+    "email": "usuario458@example.com",
+    "edad": 34,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-12-11"
+  },
+  {
+    "id": 459,
+    "nombre": "Usuario 459",
+    "email": "usuario459@example.com",
+    "edad": 61,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-11-15"
+  },
+  {
+    "id": 460,
+    "nombre": "Usuario 460",
+    "email": "usuario460@example.com",
+    "edad": 18,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-07-15"
+  },
+  {
+    "id": 461,
+    "nombre": "Usuario 461",
+    "email": "usuario461@example.com",
+    "edad": 59,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-03-05"
+  },
+  {
+    "id": 462,
+    "nombre": "Usuario 462",
+    "email": "usuario462@example.com",
+    "edad": 37,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-04-20"
+  },
+  {
+    "id": 463,
+    "nombre": "Usuario 463",
+    "email": "usuario463@example.com",
+    "edad": 38,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-10-14"
+  },
+  {
+    "id": 464,
+    "nombre": "Usuario 464",
+    "email": "usuario464@example.com",
+    "edad": 48,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-12-27"
+  },
+  {
+    "id": 465,
+    "nombre": "Usuario 465",
+    "email": "usuario465@example.com",
+    "edad": 58,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-04"
+  },
+  {
+    "id": 466,
+    "nombre": "Usuario 466",
+    "email": "usuario466@example.com",
+    "edad": 55,
+    "pais": "México",
+    "activo": false,
+    "fechaRegistro": "2025-02-26"
+  },
+  {
+    "id": 467,
+    "nombre": "Usuario 467",
+    "email": "usuario467@example.com",
+    "edad": 26,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-07-16"
+  },
+  {
+    "id": 468,
+    "nombre": "Usuario 468",
+    "email": "usuario468@example.com",
+    "edad": 48,
+    "pais": "Ecuador",
+    "activo": true,
+    "fechaRegistro": "2025-12-24"
+  },
+  {
+    "id": 469,
+    "nombre": "Usuario 469",
+    "email": "usuario469@example.com",
+    "edad": 60,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-11-05"
+  },
+  {
+    "id": 470,
+    "nombre": "Usuario 470",
+    "email": "usuario470@example.com",
+    "edad": 24,
+    "pais": "Estados Unidos",
+    "activo": false,
+    "fechaRegistro": "2025-12-24"
+  },
+  {
+    "id": 471,
+    "nombre": "Usuario 471",
+    "email": "usuario471@example.com",
+    "edad": 53,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-09-22"
+  },
+  {
+    "id": 472,
+    "nombre": "Usuario 472",
+    "email": "usuario472@example.com",
+    "edad": 23,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-07-01"
+  },
+  {
+    "id": 473,
+    "nombre": "Usuario 473",
+    "email": "usuario473@example.com",
+    "edad": 52,
+    "pais": "Argentina",
+    "activo": true,
+    "fechaRegistro": "2025-03-20"
+  },
+  {
+    "id": 474,
+    "nombre": "Usuario 474",
+    "email": "usuario474@example.com",
+    "edad": 29,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-06-05"
+  },
+  {
+    "id": 475,
+    "nombre": "Usuario 475",
+    "email": "usuario475@example.com",
+    "edad": 44,
+    "pais": "Ecuador",
+    "activo": false,
+    "fechaRegistro": "2025-09-07"
+  },
+  {
+    "id": 476,
+    "nombre": "Usuario 476",
+    "email": "usuario476@example.com",
+    "edad": 40,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-06-25"
+  },
+  {
+    "id": 477,
+    "nombre": "Usuario 477",
+    "email": "usuario477@example.com",
+    "edad": 30,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-12-06"
+  },
+  {
+    "id": 478,
+    "nombre": "Usuario 478",
+    "email": "usuario478@example.com",
+    "edad": 49,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-01-20"
+  },
+  {
+    "id": 479,
+    "nombre": "Usuario 479",
+    "email": "usuario479@example.com",
+    "edad": 40,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-11-27"
+  },
+  {
+    "id": 480,
+    "nombre": "Usuario 480",
+    "email": "usuario480@example.com",
+    "edad": 32,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-02-25"
+  },
+  {
+    "id": 481,
+    "nombre": "Usuario 481",
+    "email": "usuario481@example.com",
+    "edad": 32,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-06-08"
+  },
+  {
+    "id": 482,
+    "nombre": "Usuario 482",
+    "email": "usuario482@example.com",
+    "edad": 50,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-01-05"
+  },
+  {
+    "id": 483,
+    "nombre": "Usuario 483",
+    "email": "usuario483@example.com",
+    "edad": 45,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-04-26"
+  },
+  {
+    "id": 484,
+    "nombre": "Usuario 484",
+    "email": "usuario484@example.com",
+    "edad": 23,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-12-07"
+  },
+  {
+    "id": 485,
+    "nombre": "Usuario 485",
+    "email": "usuario485@example.com",
+    "edad": 53,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-04-21"
+  },
+  {
+    "id": 486,
+    "nombre": "Usuario 486",
+    "email": "usuario486@example.com",
+    "edad": 53,
+    "pais": "Perú",
+    "activo": false,
+    "fechaRegistro": "2025-09-20"
+  },
+  {
+    "id": 487,
+    "nombre": "Usuario 487",
+    "email": "usuario487@example.com",
+    "edad": 62,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-04-19"
+  },
+  {
+    "id": 488,
+    "nombre": "Usuario 488",
+    "email": "usuario488@example.com",
+    "edad": 35,
+    "pais": "Colombia",
+    "activo": false,
+    "fechaRegistro": "2025-10-07"
+  },
+  {
+    "id": 489,
+    "nombre": "Usuario 489",
+    "email": "usuario489@example.com",
+    "edad": 23,
+    "pais": "Chile",
+    "activo": true,
+    "fechaRegistro": "2025-05-15"
+  },
+  {
+    "id": 490,
+    "nombre": "Usuario 490",
+    "email": "usuario490@example.com",
+    "edad": 53,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-01-27"
+  },
+  {
+    "id": 491,
+    "nombre": "Usuario 491",
+    "email": "usuario491@example.com",
+    "edad": 44,
+    "pais": "Estados Unidos",
+    "activo": true,
+    "fechaRegistro": "2025-10-21"
+  },
+  {
+    "id": 492,
+    "nombre": "Usuario 492",
+    "email": "usuario492@example.com",
+    "edad": 55,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-03-08"
+  },
+  {
+    "id": 493,
+    "nombre": "Usuario 493",
+    "email": "usuario493@example.com",
+    "edad": 30,
+    "pais": "Paraguay",
+    "activo": true,
+    "fechaRegistro": "2025-01-14"
+  },
+  {
+    "id": 494,
+    "nombre": "Usuario 494",
+    "email": "usuario494@example.com",
+    "edad": 19,
+    "pais": "España",
+    "activo": false,
+    "fechaRegistro": "2025-04-19"
+  },
+  {
+    "id": 495,
+    "nombre": "Usuario 495",
+    "email": "usuario495@example.com",
+    "edad": 64,
+    "pais": "Perú",
+    "activo": true,
+    "fechaRegistro": "2025-11-13"
+  },
+  {
+    "id": 496,
+    "nombre": "Usuario 496",
+    "email": "usuario496@example.com",
+    "edad": 43,
+    "pais": "México",
+    "activo": true,
+    "fechaRegistro": "2025-08-19"
+  },
+  {
+    "id": 497,
+    "nombre": "Usuario 497",
+    "email": "usuario497@example.com",
+    "edad": 27,
+    "pais": "Paraguay",
+    "activo": false,
+    "fechaRegistro": "2025-05-12"
+  },
+  {
+    "id": 498,
+    "nombre": "Usuario 498",
+    "email": "usuario498@example.com",
+    "edad": 44,
+    "pais": "Uruguay",
+    "activo": true,
+    "fechaRegistro": "2025-03-01"
+  },
+  {
+    "id": 499,
+    "nombre": "Usuario 499",
+    "email": "usuario499@example.com",
+    "edad": 56,
+    "pais": "Chile",
+    "activo": false,
+    "fechaRegistro": "2025-08-09"
+  },
+  {
+    "id": 500,
+    "nombre": "Usuario 500",
+    "email": "usuario500@example.com",
+    "edad": 30,
+    "pais": "España",
+    "activo": true,
+    "fechaRegistro": "2025-06-15"
+  }
+]

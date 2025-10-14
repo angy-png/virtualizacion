@@ -4,6 +4,7 @@ var app;
         constructor() {
             this._circulos = null;
             this._figuras = null;
+            this._virtualizacion = null;
             d3.select("body")
                 .append("button")
                 .text("Suma")
@@ -13,6 +14,7 @@ var app;
                 this._circulos.mostrar();
                 if (this._figuras)
                     this._figuras.ocultar();
+                // if (this._virtualizacion) this._virtualizacion.ocultar();
             });
             d3.select("body")
                 .append("button")
@@ -23,6 +25,19 @@ var app;
                 this._figuras.mostrar();
                 if (this._circulos)
                     this._circulos.ocultar();
+                // if (this._virtualizacion) this._virtualizacion.ocultar();
+            });
+            d3.select("body")
+                .append("button")
+                .text("Virtualizacion")
+                .on("click", () => {
+                if (!this._virtualizacion)
+                    this._virtualizacion = new virtualizacion.cVirtualizacion();
+                // this._virtualizacion.mostrar(); 
+                if (this._circulos)
+                    this._circulos.ocultar();
+                if (this._figuras)
+                    this._figuras.ocultar();
             });
             d3.select("body")
                 .append("p").text("-----------------------------------");

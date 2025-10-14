@@ -5,6 +5,8 @@ var circulos;
             this.contenedor = d3.select("body")
                 .append("div")
                 .attr("id", "contenedor");
+            var transform = d3.zoomIdentity
+                .translate(100, 0).scale(1);
             this.input1 = this.contenedor
                 .append("input")
                 .attr("type", "number")
