@@ -5,6 +5,7 @@ var app;
             this._circulos = null;
             this._figuras = null;
             this._virtualizacion = null;
+            this._pruebaV = null;
             d3.select("body")
                 .append("button")
                 .text("Suma")
@@ -32,12 +33,19 @@ var app;
                 .text("Virtualizacion")
                 .on("click", () => {
                 if (!this._virtualizacion)
-                    this._virtualizacion = new virtualizacion.cVirtualizacion();
+                    this._virtualizacion = new virtualizacionB.cVirtualizacionB();
                 // this._virtualizacion.mostrar(); 
                 if (this._circulos)
                     this._circulos.ocultar();
                 if (this._figuras)
                     this._figuras.ocultar();
+            });
+            d3.select("body")
+                .append("button")
+                .text("Prueba de control")
+                .on("click", () => {
+                if (!this._pruebaV)
+                    this._pruebaV = new pruebaControl.cPruebaControl();
             });
             d3.select("body")
                 .append("p").text("-----------------------------------");

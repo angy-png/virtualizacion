@@ -7,9 +7,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var virtualizacion;
-(function (virtualizacion) {
-    class cVirtualizacion {
+var virtualizacionB;
+(function (virtualizacionB) {
+    class cVirtualizacionB {
         constructor() {
             this.usuarios = new Map();
             this.data = [];
@@ -195,6 +195,6 @@ var virtualizacion;
             items.exit().remove();
         }
     }
-    virtualizacion.cVirtualizacion = cVirtualizacion;
-})(virtualizacion || (virtualizacion = {}));
-//# sourceMappingURL=virtualizacion.js.map
+    virtualizacionB.cVirtualizacionB = cVirtualizacionB;
+})(virtualizacionB || (virtualizacionB = {}));
+//# sourceMappingURL=virtualizacionBeta.js.map

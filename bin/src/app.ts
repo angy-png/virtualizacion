@@ -2,7 +2,8 @@ namespace app {
     export class main {
         _circulos: circulos.Ccirculos | null = null;
         _figuras: figuras.cFiguras | null = null;
-        _virtualizacion: virtualizacion.cVirtualizacion | null = null;
+        _virtualizacion: virtualizacionB.cVirtualizacionB | null = null;
+        _pruebaV: pruebaControl.cPruebaControl | null = null
         constructor() {
             d3.select("body")
                 .append("button")
@@ -31,13 +32,20 @@ namespace app {
                 .append("button")
                 .text("Virtualizacion")
                 .on("click", () => {
-                    if (!this._virtualizacion) this._virtualizacion = new virtualizacion.cVirtualizacion();
+                    if (!this._virtualizacion) this._virtualizacion = new virtualizacionB.cVirtualizacionB();
                     // this._virtualizacion.mostrar(); 
                  
                     if (this._circulos) this._circulos.ocultar();
                     if (this._figuras) this._figuras.ocultar();
 
                 })
+
+            d3.select("body")
+            .append("button")
+            .text("Prueba de control")
+            .on("click", ()=>{
+                if(!this._pruebaV) this._pruebaV = new pruebaControl.cPruebaControl();
+            })
   
             d3.select("body")
                 .append("p").text("-----------------------------------")
