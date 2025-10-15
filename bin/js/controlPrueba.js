@@ -13,25 +13,22 @@ var pruebaControl;
         constructor() {
             this.usuarios = new Map();
             this.data = [];
-            this.alturaItem = 50;
-            this.alturaTotal = 0;
+            this.alturaDiv = 50;
             this.cargarDatos().then(() => {
-                // this.divContenedor();  
-                this.divY();
+                this.virtualizado();
             });
         }
-        divY() {
+        virtualizado() {
             this._controlV = new cvirtualizacion.cVirtualizacion({
-                id: "scroll vertical",
-                alturaItem: this.alturaItem,
-                posicion: cvirtualizacion.posicion.horizontal,
+                id: "scroll",
+                datos: this.data,
+                alturaDiv: this.alturaDiv,
+                posicion: cvirtualizacion.posicion.vertical,
                 ancho: 300,
                 alto: 500,
-                alturaTotal: this.alturaTotal,
                 colorFondo: "pink",
                 divContenedor: d3.select(".pruebaY")
             });
-            this._controlV.ObtenerDatos(this.data);
             this._conten = this._controlV.contenedor;
         }
         cargarDatos() {
@@ -48,8 +45,6 @@ var pruebaControl;
                         };
                         this.usuarios.set(usuarioNuevo.id, usuarioNuevo);
                     }
-                    this.alturaTotal = this.data.length * this.alturaItem;
-                    console.log("Altura total: ", this.alturaTotal);
                 }
                 catch (_a) {
                     console.log("Datos no cargados");

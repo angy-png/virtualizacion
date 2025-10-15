@@ -8,33 +8,28 @@ namespace pruebaControl{
     export class cPruebaControl{
         private _controlV: cvirtualizacion.cVirtualizacion; 
         private _conten: d3.Selection<HTMLDivElement, unknown, HTMLElement, any>;
-
         private usuarios: Map<number, iUsuario> = new Map();
         private data: iUsuario[] = [];
-        private alturaItem = 50; 
-        private alturaTotal = 0;  
-
+        private alturaDiv = 50; 
+        
         constructor(){
             this.cargarDatos().then(()=>{
-                // this.divContenedor();  
-                this.divY(); 
+                this.virtualizado(); 
             })
         }
-        public divY(){
+        public virtualizado(){
             this._controlV = new cvirtualizacion.cVirtualizacion({
-                id:"scroll vertical",
-                alturaItem: this.alturaItem,
-                posicion: cvirtualizacion.posicion.horizontal,
+                id:"scroll",
+                datos: this.data, 
+                alturaDiv: this.alturaDiv,
+                posicion: cvirtualizacion.posicion.vertical,
                 ancho: 300,
                 alto: 500,
-                alturaTotal: this.alturaTotal,
                 colorFondo: "pink",
                 divContenedor: d3.select(".pruebaY")
             });
-            this._controlV.ObtenerDatos(this.data)
             this._conten = this._controlV.contenedor
         }
- 
 
          public async cargarDatos() {
             try {
@@ -48,10 +43,7 @@ namespace pruebaControl{
                         edad: item.edad !== undefined && item.edad !== null ? Number(item.edad) : 0
                     }
                     this.usuarios.set(usuarioNuevo.id, usuarioNuevo);
-                }
-                  this.alturaTotal = this.data.length * this.alturaItem;
-                  console.log("Altura total: ", this.alturaTotal)
-               
+                }     
             } catch {
                 console.log("Datos no cargados")
             }
