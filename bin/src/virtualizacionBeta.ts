@@ -159,6 +159,7 @@ namespace virtualizacionB {
             this.contenedorX = d3.select("body")
                 .append("div")
                 .style("width", "400px")
+                
                 .style("height", `${this.alturaVisibleX}px`)
                 .style("overflow-x", "scroll")
                 .style("border", "1px solid #999")

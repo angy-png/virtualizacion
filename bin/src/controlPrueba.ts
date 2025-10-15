@@ -11,45 +11,30 @@ namespace pruebaControl{
 
         private usuarios: Map<number, iUsuario> = new Map();
         private data: iUsuario[] = [];
-        private alturaItem = 23; 
+        private alturaItem = 50; 
+        private alturaTotal = 0;  
 
         constructor(){
             this.cargarDatos().then(()=>{
-                this.divContenedor();  
-                // this.divContenedorx(); 
+                // this.divContenedor();  
+                this.divY(); 
             })
         }
-
-        public divContenedor(){
+        public divY(){
             this._controlV = new cvirtualizacion.cVirtualizacion({
-                id: "Ventana-scroll",
+                id:"scroll vertical",
                 alturaItem: this.alturaItem,
-                posicion: cvirtualizacion.posicion.vertical, 
-                ancho: 400,
-                alto: 400,
-                colorFondo: "pink", 
-                divContenedor: d3.select("body")
+                posicion: cvirtualizacion.posicion.horizontal,
+                ancho: 300,
+                alto: 500,
+                alturaTotal: this.alturaTotal,
+                colorFondo: "pink",
+                divContenedor: d3.select(".pruebaY")
             });
-
-            this._controlV.ObtenerDatos(this.data) 
-            
-            this._conten = this._controlV.contenedor;
+            this._controlV.ObtenerDatos(this.data)
+            this._conten = this._controlV.contenedor
         }
-
-        //  public divContenedorx(){
-        //     this._controlV = new cvirtualizacion.cVirtualizacion({
-        //         id: "Ventana-scroll",
-        //         alturaItem: this.alturaItem,
-        //         posicion: cvirtualizacion.posicion.horizontal, 
-        //         ancho: 400,
-        //         alto: 400,
-        //         alturaDatos: this.alturaTotal, 
-        //         colorFondo: "pink"
-        //     });
-        //     this._controlV.ObtenerDatos(this.data)
-        //     this._conten = this._controlV.contenedor;
-        // }
-
+ 
 
          public async cargarDatos() {
             try {
@@ -64,10 +49,12 @@ namespace pruebaControl{
                     }
                     this.usuarios.set(usuarioNuevo.id, usuarioNuevo);
                 }
+                  this.alturaTotal = this.data.length * this.alturaItem;
+                  console.log("Altura total: ", this.alturaTotal)
                
             } catch {
                 console.log("Datos no cargados")
             }
         }
     }
-}
+}  

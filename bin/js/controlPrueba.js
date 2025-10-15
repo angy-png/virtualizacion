@@ -13,38 +13,27 @@ var pruebaControl;
         constructor() {
             this.usuarios = new Map();
             this.data = [];
-            this.alturaItem = 23;
+            this.alturaItem = 50;
+            this.alturaTotal = 0;
             this.cargarDatos().then(() => {
-                this.divContenedor();
-                // this.divContenedorx(); 
+                // this.divContenedor();  
+                this.divY();
             });
         }
-        divContenedor() {
+        divY() {
             this._controlV = new cvirtualizacion.cVirtualizacion({
-                id: "Ventana-scroll",
+                id: "scroll vertical",
                 alturaItem: this.alturaItem,
-                posicion: cvirtualizacion.posicion.vertical,
-                ancho: 400,
-                alto: 400,
+                posicion: cvirtualizacion.posicion.horizontal,
+                ancho: 300,
+                alto: 500,
+                alturaTotal: this.alturaTotal,
                 colorFondo: "pink",
-                divContenedor: d3.select("body")
+                divContenedor: d3.select(".pruebaY")
             });
             this._controlV.ObtenerDatos(this.data);
             this._conten = this._controlV.contenedor;
         }
-        //  public divContenedorx(){
-        //     this._controlV = new cvirtualizacion.cVirtualizacion({
-        //         id: "Ventana-scroll",
-        //         alturaItem: this.alturaItem,
-        //         posicion: cvirtualizacion.posicion.horizontal, 
-        //         ancho: 400,
-        //         alto: 400,
-        //         alturaDatos: this.alturaTotal, 
-        //         colorFondo: "pink"
-        //     });
-        //     this._controlV.ObtenerDatos(this.data)
-        //     this._conten = this._controlV.contenedor;
-        // }
         cargarDatos() {
             return __awaiter(this, void 0, void 0, function* () {
                 try {
@@ -59,6 +48,8 @@ var pruebaControl;
                         };
                         this.usuarios.set(usuarioNuevo.id, usuarioNuevo);
                     }
+                    this.alturaTotal = this.data.length * this.alturaItem;
+                    console.log("Altura total: ", this.alturaTotal);
                 }
                 catch (_a) {
                     console.log("Datos no cargados");
