@@ -23,7 +23,7 @@ var pruebaControl;
                 id: "scroll",
                 datos: this.data,
                 alturaDiv: this.alturaDiv,
-                posicion: cvirtualizacion.posicion.vertical,
+                posicion: cvirtualizacion.posicion.horizontal,
                 ancho: 300,
                 alto: 500,
                 colorFondo: "pink",
@@ -34,7 +34,7 @@ var pruebaControl;
         cargarDatos() {
             return __awaiter(this, void 0, void 0, function* () {
                 try {
-                    const response = yield fetch("http://127.0.0.1:5500/bin/usuarios.json");
+                    const response = yield fetch("./usuarios.json");
                     this.data = yield response.json();
                     for (let i = 0; i < this.data.length; i++) {
                         const item = this.data[i];

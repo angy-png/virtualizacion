@@ -22,7 +22,7 @@ namespace pruebaControl{
                 id:"scroll",
                 datos: this.data, 
                 alturaDiv: this.alturaDiv,
-                posicion: cvirtualizacion.posicion.vertical,
+                posicion: cvirtualizacion.posicion.horizontal,
                 ancho: 300,
                 alto: 500,
                 colorFondo: "pink",
@@ -33,7 +33,7 @@ namespace pruebaControl{
 
          public async cargarDatos() {
             try {
-                const response = await fetch("http://127.0.0.1:5500/bin/usuarios.json");
+                const response = await fetch("./usuarios.json");
                 this.data = await response.json();
                 for (let i = 0; i < this.data.length; i++) {
                     const item = this.data[i];
